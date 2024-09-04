@@ -2,7 +2,7 @@
 # JNW_BKLE_SKY130A
 
 # Who
-cawu
+Leidulv Tønnesland and Bjørn K.T. Solheim
 
 # Why
  <explain why you made this module>
