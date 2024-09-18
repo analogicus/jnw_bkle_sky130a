@@ -31,11 +31,13 @@ N 1120 -670 1120 -630 {
 lab=VSS}
 N 1120 -630 1120 -580 {
 lab=VSS}
-C {cborder/border_s.sym} 1400 -300 0 0 {
+C {cborder/border_s.sym} 1410 -300 0 0 {
 user="bkts"
 company="bkts"}
 C {devices/ipin.sym} 900 -770 0 0 {name=p1 lab=IBPS_2U}
 C {devices/ipin.sym} 900 -580 0 0 {name=p2 lab=VSS}
-C {devices/ipin.sym} 1180 -770 2 0 {name=p3 lab=IBNS_20U}
+C {devices/opin.sym} 1180 -770 0 0 {name=p3 lab=IBNS_20U}
 C {JNW_ATR_SKY130A/JNWATR_NCH_12C1F2.sym} 1080 -670 0 0 {name=x1 }
 C {JNW_ATR_SKY130A/JNWATR_NCH_2C1F2.sym} 1020 -670 0 1 {name=x2 }
+C {/pri/bjs1/aicex/ip/jnw_tr_sky130A/design/JNW_TR_SKY130A/JNWTR_RES2.sym} 1200 -620 0 0 {name=x3 }
+C {JNW_TR_SKY130A/JNWTR_CAPX1.sym} 1290 -690 0 0 {name=x4 }
