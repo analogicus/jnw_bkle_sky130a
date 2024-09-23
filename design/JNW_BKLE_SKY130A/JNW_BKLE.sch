@@ -39,5 +39,16 @@ C {devices/ipin.sym} 900 -580 0 0 {name=p2 lab=VSS}
 C {devices/opin.sym} 1180 -770 0 0 {name=p3 lab=IBNS_20U}
 C {JNW_ATR_SKY130A/JNWATR_NCH_12C1F2.sym} 1080 -670 0 0 {name=x1 }
 C {JNW_ATR_SKY130A/JNWATR_NCH_2C1F2.sym} 1020 -670 0 1 {name=x2 }
-C {/pri/bjs1/aicex/ip/jnw_tr_sky130A/design/JNW_TR_SKY130A/JNWTR_RES2.sym} 1200 -620 0 0 {name=x3 }
-C {JNW_TR_SKY130A/JNWTR_CAPX1.sym} 1290 -690 0 0 {name=x4 }
+C {/pri/bjs1/aicex/ip/jnw_tr_sky130A/design/JNW_TR_SKY130A/JNWTR_RES2.sym} 1540 -630 0 0 {name=x3 }
+C {JNW_TR_SKY130A/JNWTR_CAPX1.sym} 1540 -690 0 0 {name=x4 }
+C {sky130_fd_pr/cap_mim_m3_1.sym} 1540 -830 0 0 {name=C1 model=cap_mim_m3_1 W=1 L=1 MF=1 spiceprefix=X}
+C {sky130_fd_pr/res_high_po_2p85.sym} 1540 -930 0 0 {name=R1
+L=2.85
+model=res_high_po_2p85
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_generic_l1.sym} 1390 -700 0 0 {name=R2
+W=1
+L=1
+model=res_generic_l1
+mult=1}
