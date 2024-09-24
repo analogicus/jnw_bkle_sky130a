@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 1
-timestamp 1727133125
+timestamp 1727159747
 << checkpaint >>
 rect 0 0 0 0
 use JNWATR_NCH_12C1F2 x1 ../JNW_ATR_SKY130A
