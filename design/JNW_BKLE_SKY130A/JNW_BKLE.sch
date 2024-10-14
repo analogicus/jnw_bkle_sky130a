@@ -1,4 +1,4 @@
-v {xschem version=3.4.6RC file_version=1.2
+v {xschem version=3.4.5 file_version=1.2
 }
 G {}
 K {}
@@ -37,10 +37,10 @@ company="bkts"}
 C {devices/ipin.sym} 720 -800 0 0 {name=p1 lab=IBPS_2U}
 C {devices/ipin.sym} 720 -610 0 0 {name=p2 lab=VSS}
 C {devices/opin.sym} 1000 -800 0 0 {name=p3 lab=IBNS_20U}
-C {JNW_ATR_SKY130A/JNWATR_NCH_12C1F2.sym} 900 -700 0 0 {name=x1 }
-C {JNW_ATR_SKY130A/JNWATR_NCH_2C1F2.sym} 840 -700 0 1 {name=x2 }
+C {JNW_ATR_SKY130A/JNWATR_NCH_12C1F2.sym} 900 -700 0 0 {name=mirror1_x1 }
+C {JNW_ATR_SKY130A/JNWATR_NCH_2C1F2.sym} 840 -700 0 1 {name=mirror1_x2 }
 C {JNW_TR_SKY130A/JNWTR_CAPX1.sym} 1360 -720 0 0 {name=x4 }
-C {sky130_fd_pr/cap_mim_m3_1.sym} 1360 -860 0 0 {name=C1 model=cap_mim_m3_1 W=1 L=1 MF=1 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 1360 -860 0 0 {name=C1 model=cap_mim_m3_1 W=4 L=1 MF=1 spiceprefix=X}
 C {sky130_fd_pr/res_high_po_2p85.sym} 1360 -960 0 0 {name=R1
 L=2.85
 model=res_high_po_2p85
