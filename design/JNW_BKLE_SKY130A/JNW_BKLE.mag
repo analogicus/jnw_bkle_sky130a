@@ -1,56 +1,59 @@
 magic
 tech sky130A
 magscale 1 1
-timestamp 1729605489
+timestamp 1729691571
 << checkpaint >>
 rect 0 0 0 0
-use JNWATR_NCH_12C1F2 x1 ../AAL_COMP_LIBS/JNW_ATR_SKY130A
-transform 0 1 400 -1 0 9856
+use JNWATR_NCH_12C1F2 M2 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
+transform 0 1 2500 -1 0 1500
 box 0 0 832 400
-use JNWATR_NCH_2C1F2 x2 ../AAL_COMP_LIBS/JNW_ATR_SKY130A
-transform -1 0 512 0 -1 9024
-box 0 0 512 400
-use JNWTR_CAPX1 x4 ../AAL_COMP_LIBS/JNW_TR_SKY130A
-transform -1 0 2332 0 -1 8048
+use JNWTR_CAPX1 C1 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_TR_SKY130A
+transform 0 1 4000 -1 0 1500
 box 0 0 540 540
-use JNWTR_RES2 x3 ../AAL_COMP_LIBS/JNW_TR_SKY130A
-transform 0 1 3112 -1 0 8624
+use JNWTR_RES2 R1 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_TR_SKY130A
+transform 0 1 5500 -1 0 1500
 box 0 0 324 1320
-use JNWATR_NCH_4C5F0 x2 ../AAL_COMP_LIBS/JNW_ATR_SKY130A
-transform 0 1 992 -1 0 10000
+use JNWATR_NCH_2C1F2 M1 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
+transform 0 1 7000 -1 0 1500
+box 0 0 512 400
+use AALMISC_CAP20f C2 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/AAL_MISC_SKY130A
+transform 0 1 8500 -1 0 1500
+box 0 0 340 340
+use JNWATR_NCH_4C5F0 M7 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
+transform 0 1 10000 -1 0 1500
 box 0 0 576 400
-use JNWATR_NCH_4C5F0 x3 ../AAL_COMP_LIBS/JNW_ATR_SKY130A
-transform 0 1 912 -1 0 9240
+use JNWATR_NCH_4C5F0 M8 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
+transform 0 1 11500 -1 0 1500
 box 0 0 576 400
-use JNWATR_PCH_4C5F0 x7 ../AAL_COMP_LIBS/JNW_ATR_SKY130A
-transform -1 0 2064 0 -1 9024
+use JNWATR_PCH_4C5F0 M5 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
+transform 0 1 13000 -1 0 1500
 box 0 0 576 400
-use JNWATR_PCH_4C5F0 x9 ../AAL_COMP_LIBS/JNW_ATR_SKY130A
-transform -1 0 1488 0 -1 9024
+use JNWATR_PCH_4C5F0 M6 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
+transform 0 1 14500 -1 0 1500
 box 0 0 576 400
-use JNWATR_PCH_4C5F0 x8 ../AAL_COMP_LIBS/JNW_ATR_SKY130A
-transform -1 0 2064 0 -1 9424
+use JNWATR_PCH_4C5F0 M1 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
+transform 0 1 16000 -1 0 1500
 box 0 0 576 400
-use JNWATR_PCH_4C5F0 x5 ../AAL_COMP_LIBS/JNW_ATR_SKY130A
-transform 0 -1 1792 1 0 10000
+use JNWATR_PCH_4C5F0 M2 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
+transform 0 1 17500 -1 0 1500
 box 0 0 576 400
-use JNWATR_NCH_4C5F0 x6 ../AAL_COMP_LIBS/JNW_ATR_SKY130A
-transform 0 -1 688 1 0 8624
+use JNWATR_NCH_4C5F0 M10 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
+transform 0 1 19000 -1 0 1500
 box 0 0 576 400
-use JNWATR_NCH_4C5F0 x1 ../AAL_COMP_LIBS/JNW_ATR_SKY130A
-transform 1 0 512 0 1 512
+use JNWATR_NCH_4C5F0 M9 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
+transform 0 1 20500 -1 0 1500
 box 0 0 576 400
-use JNWATR_NCH_4C5F0 x10 ../AAL_COMP_LIBS/JNW_ATR_SKY130A
-transform 0 1 1488 -1 0 8624
+use JNWATR_NCH_4C5F0 M11 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
+transform 0 1 22000 -1 0 1500
 box 0 0 576 400
-use JNWATR_NCH_4C5F0 x11 ../AAL_COMP_LIBS/JNW_ATR_SKY130A
-transform 0 -1 1088 1 0 8624
+use JNWATR_NCH_4C5F0 M12 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
+transform 0 1 23500 -1 0 1500
 box 0 0 576 400
-use JNWATR_PCH_4C5F0 x12 ../AAL_COMP_LIBS/JNW_ATR_SKY130A
-transform 0 -1 1392 1 0 10000
+use JNWATR_PCH_4C5F0 M3 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
+transform 0 1 25000 -1 0 1500
 box 0 0 576 400
-use JNWATR_PCH_4C5F0 x13 ../AAL_COMP_LIBS/JNW_ATR_SKY130A
-transform -1 0 1488 0 -1 9424
+use JNWATR_PCH_4C5F0 M4 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
+transform 0 1 26500 -1 0 1500
 box 0 0 576 400
 << labels >>
 << properties >>

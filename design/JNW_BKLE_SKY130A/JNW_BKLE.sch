@@ -37,21 +37,22 @@ company="bkts"}
 C {devices/ipin.sym} 720 -800 0 0 {name=p1 lab=IBPS_2U}
 C {devices/ipin.sym} 720 -610 0 0 {name=p2 lab=VSS}
 C {devices/opin.sym} 1000 -800 0 0 {name=p3 lab=IBNS_20U}
-C {AAL_COMP_LIBS/JNW_ATR_SKY130A/JNWATR_NCH_12C1F2.sym} 900 -700 0 0 {name=mirror1_x1 }
+C {AAL_COMP_LIBS/JNW_ATR_SKY130A/JNWATR_NCH_12C1F2.sym} 900 -700 0 0 {name=mirror0_M2
+}
 C {AAL_COMP_LIBS/JNW_ATR_SKY130A/JNWATR_NCH_2C1F2.mag} 840 -700 0 1 {name=mirror1_x2 }
-C {AAL_COMP_LIBS/JNW_TR_SKY130A/JNWTR_CAPX1.sym} 1660 -960 0 0 {name=x4 }
-C {sky130_fd_pr/cap_mim_m3_1.sym} 1360 -860 0 0 {name=C1 model=cap_mim_m3_1 W=4 L=1 MF=1 spiceprefix=X}
-C {sky130_fd_pr/res_high_po_2p85.sym} 1360 -960 0 0 {name=R1
-L=2.85
-model=res_high_po_2p85
+C {AAL_COMP_LIBS/JNW_TR_SKY130A/JNWTR_CAPX1.sym} 1110 -640 0 0 {name=C1
+ }
+C {AAL_COMP_LIBS/JNW_TR_SKY130A/JNWTR_RES2.sym} 1310 -640 0 0 {name=R1
+
+}
+C {JNW_BKLE_SKY130A/COMP.sym} 900 -480 0 0 {name=U1}
+C {AAL_COMP_LIBS/JNW_ATR_SKY130A/JNWATR_NCH_2C1F2.sym} 840 -700 0 1 {name=mirror0_M1
+}
+C {AAL_COMP_LIBS/AAL_MISC_SKY130A/AALMISC_CAP20f.sym} 1110 -550 0 0 {name=C2
+}
+C {sky130_fd_pr/pnp_05v5.sym} 1300 -430 0 0 {name=Q1
+model=pnp_05v5_W3p40L3p40
+m=2
+text="yo"
 spiceprefix=X
-mult=1}
-C {sky130_fd_pr/res_generic_l1.sym} 1210 -730 0 0 {name=R2
-W=1
-L=1
-model=res_generic_l1
-mult=1}
-C {AAL_COMP_LIBS/JNW_TR_SKY130A/JNWTR_RES2.sym} 1310 -640 0 0 {name=x3}
-C {JNW_BKLE_SKY130A/COMP.sym} 900 -480 0 0 {name=x5}
-C {AAL_COMP_LIBS/JNW_ATR_SKY130A/JNWATR_NCH_2C1F2.sym} 840 -700 0 1 {name=mirror_x1 }
-C {AAL_COMP_LIBS/AAL_MISC_SKY130A/AALMISC_CAP20f.sym} 1110 -550 0 0 {name=x1 }
+}
