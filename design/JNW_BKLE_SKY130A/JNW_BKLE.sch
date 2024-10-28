@@ -1,4 +1,4 @@
-v {xschem version=3.4.5 file_version=1.2
+v {xschem version=3.4.6RC file_version=1.2
 }
 G {}
 K {}
@@ -50,9 +50,4 @@ C {AAL_COMP_LIBS/JNW_ATR_SKY130A/JNWATR_NCH_2C1F2.sym} 840 -700 0 1 {name=mirror
 }
 C {AAL_COMP_LIBS/AAL_MISC_SKY130A/AALMISC_CAP20f.sym} 1110 -550 0 0 {name=C2
 }
-C {sky130_fd_pr/pnp_05v5.sym} 1300 -430 0 0 {name=Q1
-model=pnp_05v5_W3p40L3p40
-m=2
-text="yo"
-spiceprefix=X
-}
+C {AAL_COMP_LIBS/AAL_MISC_SKY130A/AALMISC_PNP_W3p40L3p40.sym} 1240 -430 0 0 {name="Q1"}

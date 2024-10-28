@@ -1,0 +1,22 @@
+v {xschem version=3.4.6RC file_version=1.2
+}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname "
+template="name=Q1 "}
+V {}
+S {}
+E {}
+L 4 50 -80 50 -20 {}
+L 4 30 -50 50 -50 {}
+L 4 60 -70 70 -80 {}
+L 4 50 -40 70 -20 {}
+B 5 67.5 -22.5 72.5 -17.5 {name=C dir=inout pinnumber=3}
+B 5 27.5 -52.5 32.5 -47.5 {name=B dir=in pinnumber=1}
+B 5 67.5 -82.5 72.5 -77.5 {name=E dir=inout pinnumber=2}
+P 4 4 50 -60 65 -65 55 -75 50 -60 {fill=true}
+T {@symname} 70 -50 0 0 0.25 0.25 {}
+T {@name} 72.5 -66.25 0 0 0.2 0.2 {}
+T {E} 80 -85.625 0 0 0.15 0.15 {}
+T {C} 80 -23.125 0 0 0.15 0.15 {}
+T {B} 39.375 -60.625 0 1 0.15 0.15 {}
