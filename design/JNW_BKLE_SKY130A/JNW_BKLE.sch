@@ -31,6 +31,14 @@ N 940 -700 940 -660 {
 lab=VSS}
 N 940 -660 940 -610 {
 lab=VSS}
+N 1020 -490 1020 -430 {
+lab=#net1}
+N 1110 -540 1110 -500 {
+lab=#net1}
+N 1020 -490 1110 -490 {
+lab=#net1}
+N 1110 -500 1110 -490 {
+lab=#net1}
 C {cborder/border_s.sym} 1400 -200 0 0 {
 user="bkts"
 company="bkts"}
