@@ -1,4 +1,4 @@
-v {xschem version=3.4.6RC file_version=1.2
+v {xschem version=3.4.5 file_version=1.2
 }
 G {}
 K {}
@@ -31,21 +31,13 @@ N 940 -700 940 -660 {
 lab=VSS}
 N 940 -660 940 -610 {
 lab=VSS}
-N 1020 -490 1020 -430 {
-lab=#net1}
-N 1110 -540 1110 -500 {
-lab=#net1}
-N 1020 -490 1110 -490 {
-lab=#net1}
-N 1110 -500 1110 -490 {
-lab=#net1}
 C {cborder/border_s.sym} 1400 -200 0 0 {
 user="bkts"
 company="bkts"}
 C {devices/ipin.sym} 720 -800 0 0 {name=p1 lab=IBPS_2U}
 C {devices/ipin.sym} 720 -610 0 0 {name=p2 lab=VSS}
 C {devices/opin.sym} 1000 -800 0 0 {name=p3 lab=IBNS_20U}
-C {AAL_COMP_LIBS/JNW_ATR_SKY130A/JNWATR_NCH_12C1F2.sym} 900 -700 0 0 {name=mirror0_M2
+C {AAL_COMP_LIBS/JNW_ATR_SKY130A/JNWATR_NCH_12C1F2.sym} 900 -700 0 0 {name=mirror0_MN2
 }
 C {AAL_COMP_LIBS/JNW_ATR_SKY130A/JNWATR_NCH_2C1F2.mag} 840 -700 0 1 {name=mirror1_x2 }
 C {AAL_COMP_LIBS/JNW_TR_SKY130A/JNWTR_CAPX1.sym} 1110 -640 0 0 {name=C1
@@ -54,8 +46,8 @@ C {AAL_COMP_LIBS/JNW_TR_SKY130A/JNWTR_RES2.sym} 1310 -640 0 0 {name=R1
 
 }
 C {JNW_BKLE_SKY130A/COMP.sym} 900 -480 0 0 {name=U1}
-C {AAL_COMP_LIBS/JNW_ATR_SKY130A/JNWATR_NCH_2C1F2.sym} 840 -700 0 1 {name=mirror0_M1
+C {AAL_COMP_LIBS/JNW_ATR_SKY130A/JNWATR_NCH_2C1F2.sym} 840 -700 0 1 {name=mirror0_MN1
 }
 C {AAL_COMP_LIBS/AAL_MISC_SKY130A/AALMISC_CAP20f.sym} 1110 -550 0 0 {name=C2
 }
-C {AAL_COMP_LIBS/AAL_MISC_SKY130A/AALMISC_PNP_W3p40L3p40.sym} 1240 -430 0 0 {name="Q1"}
+C {AAL_COMP_LIBS/AAL_MISC_SKY130A/AALMISC_PNP_W3p40L3p40.sym} 1240 -430 0 0 {name="QP1"}
