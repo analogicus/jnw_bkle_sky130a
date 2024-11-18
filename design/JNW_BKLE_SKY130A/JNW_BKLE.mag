@@ -1,44 +1,44 @@
 magic
 tech sky130A
 magscale 1 1
-timestamp 1730817233
+timestamp 1731939386
 << checkpaint >>
 rect 0 0 0 0
 use JNWATR_NCH_4C5F0 MN7 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
-transform 1 0 1152 0 1 1100
+transform 1 0 924 0 1 1500
 box 0 0 576 400
 use JNWATR_NCH_4C5F0 MN8 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
-transform 1 0 0 0 1 1100
+transform 1 0 1500 0 1 1500
 box 0 0 576 400
 use JNWATR_PCH_4C5F0 MP5 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
-transform 1 0 576 0 1 0
+transform 1 0 924 0 1 100
 box 0 0 576 400
 use JNWATR_PCH_4C5F0 MP6 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
-transform 1 0 0 0 1 0
+transform 1 0 1500 0 1 100
 box 0 0 576 400
 use JNWATR_PCH_4C5F0 MP1 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
-transform 1 0 1152 0 1 400
+transform 1 0 924 0 1 900
 box 0 0 576 400
 use JNWATR_PCH_4C5F0 MP2 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
-transform 1 0 1152 0 1 0
+transform 1 0 1500 0 1 900
 box 0 0 576 400
 use JNWATR_NCH_4C5F0 MN10 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
-transform 1 0 1152 0 1 1500
+transform 1 0 924 0 1 2300
 box 0 0 576 400
 use JNWATR_NCH_4C5F0 MN9 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
-transform 1 0 0 0 1 1500
+transform 1 0 1500 0 1 2300
 box 0 0 576 400
 use JNWATR_NCH_4C5F0 MN11 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
-transform 1 0 576 0 1 1500
+transform 1 0 924 0 1 1900
 box 0 0 576 400
 use JNWATR_NCH_4C5F0 MN12 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
-transform 1 0 576 0 1 1100
+transform 1 0 1500 0 1 1900
 box 0 0 576 400
 use JNWATR_PCH_4C5F0 MP3 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
-transform 1 0 0 0 1 400
+transform 1 0 924 0 1 500
 box 0 0 576 400
 use JNWATR_PCH_4C5F0 MP4 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
-transform 1 0 576 0 1 400
+transform 1 0 1500 0 1 500
 box 0 0 576 400
 << labels >>
 << properties >>
