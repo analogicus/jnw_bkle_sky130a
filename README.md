@@ -2,36 +2,34 @@
 # JNW_BKLE_SKY130A
 
 # Who
-Leidulv Tønnesland and Bjørn K.T. Solheim
+Bjørn K.T. Solheim and Leidulv Tønnesland
 
 # Why
- <explain why you made this module>
+This is a test repository used while developing the software project Analog Automagic layout
+(https://github.com/Sunhome22/Analog-Automagic-Layout).
 
-# How
- <explain short how you made this module>
-
-
-# What
 
 | What            | Lib/Folder       | Cell/Name |
 | :-              | :-:              | :-:       |
-| Schematic       | JNW_BKLE_SKY130A | JNW_BKLE |
-| Layout          | JNW_BKLE_SKY130A | JNW_BKLE |
-| LPE             | JNW_BKLE_SKY130A | JNW_BKLE |
+| Schematic       | JNW_BKLE_SKY130A | JNW_BKLE  |
+| Layout          | JNW_BKLE_SKY130A | JNW_BKLE  |
 
 
 # Changelog/Plan
 | Version | Status | Comment|
 | :-| :-| :-|
-|0.1.0 | :x: | Make something |
+|1.0.0 | ✔️ | An OTA comparator circuit |
 
 
-# Signal interface
-| Signal       | Direction | Domain  | Description                               |
-| :---         | :---:     | :---:   | :---                                      |
-| VDD_1V8         | Input     | VDD_1V8 | Main supply                               |
-| VSS         | Input     | Ground  |                                           |
-| PWRUP_1V8     | Input    | VDD_1V8 | Power up the circuit                       |
+# Signal interface of comparator OTA
+| Signal       | Direction | Domain   | Description                               |
+| :---         | :---:     | :---:    | :---                                      |
+| VDD          | Input     | VDD      | Main supply                               |
+| VSS          | Input     | Ground   |                                           |
+| VIP          | Input     | + input  |                                           |
+| VIN          | Input     | - input  |                                           |
+| I_BIAS       | Input     | Bias     | Bias current                              |
+| VO           | Output    | VO       | Comparator output                         |
 
 
 # Key parameters
@@ -39,15 +37,14 @@ Leidulv Tønnesland and Bjørn K.T. Solheim
 | :---                | :-:     | :-:           | :-:     | :---: |
 | Technology          |         | Skywater 130 nm |         |       |
 | AVDD                | 1.7    | 1.8           | 1.9    | V     |
-| Temperature         | -40     | 27            | 125     | C     |
 
 
 # Status
 
 | Stage                       | TYPE | Status | Comment                        |
 | :---                        | :-:  | :---:  | :--:                           |
-| Specification               | DOC  | :x:    |                                |
-| Schematic                   | VIEW | :x:    |                                |
+| Specification               | DOC  | ✔️    |                                |
+| Schematic                   | VIEW | ✔️    |                                |
 | Schematic simulation        | VER  | N/A    |                                |
 | Layout                      | VIEW | :x:    |                                |
 | Layout parasitic extraction | VIEW | :x:    |                                |
