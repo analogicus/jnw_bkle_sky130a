@@ -1,23 +1,13 @@
 magic
 tech sky130A
 magscale 1 1
-<<<<<<< HEAD
-timestamp 1733760357
+timestamp 1733780743
 << checkpaint >>
 rect 0 0 0 0
 use JNWATR_NCH_4C5F0 MN1 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
 transform 1 0 924 0 1 1500
 box 0 0 576 400
 use JNWATR_NCH_4C5F0 MN2 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
-=======
-timestamp 1732033485
-<< checkpaint >>
-rect 0 0 0 0
-use JNWATR_NCH_4C5F0 MN7 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
-transform 1 0 924 0 1 1500
-box 0 0 576 400
-use JNWATR_NCH_4C5F0 MN8 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
->>>>>>> 42b92b186da199c733524ea5182b12e6588f51c4
 transform 1 0 1500 0 1 1500
 box 0 0 576 400
 use JNWATR_PCH_4C5F0 MP5 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
@@ -32,7 +22,6 @@ box 0 0 576 400
 use JNWATR_PCH_4C5F0 MP2 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
 transform 1 0 1500 0 1 900
 box 0 0 576 400
-<<<<<<< HEAD
 use JNWATR_NCH_4C5F0 MN3 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
 transform 1 0 924 0 1 2300
 box 0 0 576 400
@@ -43,18 +32,6 @@ use JNWATR_NCH_4C5F0 MN5 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_AT
 transform 1 0 924 0 1 1900
 box 0 0 576 400
 use JNWATR_NCH_4C5F0 MN6 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
-=======
-use JNWATR_NCH_4C5F0 MN10 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
-transform 1 0 924 0 1 2300
-box 0 0 576 400
-use JNWATR_NCH_4C5F0 MN9 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
-transform 1 0 1500 0 1 2300
-box 0 0 576 400
-use JNWATR_NCH_4C5F0 MN11 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
-transform 1 0 924 0 1 1900
-box 0 0 576 400
-use JNWATR_NCH_4C5F0 MN12 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
->>>>>>> 42b92b186da199c733524ea5182b12e6588f51c4
 transform 1 0 1500 0 1 1900
 box 0 0 576 400
 use JNWATR_PCH_4C5F0 MP3 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
@@ -64,7 +41,6 @@ use JNWATR_PCH_4C5F0 MP4 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_AT
 transform 1 0 1500 0 1 500
 box 0 0 576 400
 << m1 >>
-<<<<<<< HEAD
 rect 998 1674 1042 1726
 << m2 >>
 rect 998 1674 1042 1726
@@ -464,67 +440,6 @@ rect 300 0 350 50
 rect 300 0 350 50
 << via3 >>
 rect 300 0 350 50
-=======
-rect 92 182 111 182
-<< m2 >>
-rect 92 170 92 182
-<< m1 >>
-rect 150 182 169 182
-<< m2 >>
-rect 150 170 150 182
-<< m1 >>
-rect 92 42 111 42
-<< m2 >>
-rect 92 30 92 42
-<< m1 >>
-rect 150 42 169 42
-<< m2 >>
-rect 150 30 150 42
-<< m1 >>
-rect 92 122 111 122
-<< m2 >>
-rect 92 110 92 122
-<< m1 >>
-rect 159 94 188 94
-<< m2 >>
-rect 159 94 159 110
-<< m1 >>
-rect 150 122 169 122
-<< m2 >>
-rect 150 110 150 122
-<< m1 >>
-rect 92 262 111 262
-<< m2 >>
-rect 92 250 92 262
-<< m1 >>
-rect 159 234 188 234
-<< m2 >>
-rect 159 234 159 250
-<< m1 >>
-rect 150 262 169 262
-<< m2 >>
-rect 150 250 150 262
-<< m1 >>
-rect 102 194 130 194
-<< m2 >>
-rect 102 194 102 210
-<< m1 >>
-rect 92 222 111 222
-<< m2 >>
-rect 92 210 92 222
-<< m1 >>
-rect 150 222 169 222
-<< m2 >>
-rect 150 210 150 222
-<< m1 >>
-rect 92 82 111 82
-<< m2 >>
-rect 92 70 92 82
-<< m1 >>
-rect 150 82 169 82
-<< m2 >>
-rect 150 70 150 82
->>>>>>> 42b92b186da199c733524ea5182b12e6588f51c4
 << labels >>
 << properties >>
 << end >>
