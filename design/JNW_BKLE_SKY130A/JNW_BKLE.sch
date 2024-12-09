@@ -32,8 +32,8 @@ lab=VSS}
 N 940 -660 940 -610 {
 lab=VSS}
 C {cborder/border_s.sym} 1400 -200 0 0 {
-user="bkts"
-company="bkts"}
+user="bkle"
+company="bkle"}
 C {devices/ipin.sym} 720 -800 0 0 {name=p1 lab=IBPS_2U}
 C {devices/ipin.sym} 720 -610 0 0 {name=p2 lab=VSS}
 C {devices/opin.sym} 1000 -800 0 0 {name=p3 lab=IBNS_20U}
