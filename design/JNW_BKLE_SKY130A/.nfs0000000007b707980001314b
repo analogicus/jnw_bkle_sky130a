@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 1
-timestamp 1733924473
+timestamp 1733497276
 << checkpaint >>
 rect 0 0 0 0
 use JNWATR_NCH_4C5F0 MN1 ~/aicex/ip/jnw_bkle_sky130A/design/AAL_COMP_LIBS/JNW_ATR_SKY130A
