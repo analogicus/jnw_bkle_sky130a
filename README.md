@@ -46,9 +46,9 @@ This is a test repository used while developing the software project Analog Auto
 | Specification               | DOC  | ✔️    |                                |
 | Schematic                   | VIEW | ✔️    |                                |
 | Schematic simulation        | VER  | N/A    |                                |
-| Layout                      | VIEW | :x:    |                                |
-| Layout parasitic extraction | VIEW | :x:    |                                |
-| LPE simulation              | VER  | :x:    |                                |
+| Layout                      | VIEW | ✔️    |                                |
+| Layout parasitic extraction | VIEW | N/A    |                                |
+| LPE simulation              | VER  | N/A    |                                |
 | LVS                         | VER  | :x:    |                                |
 | DRC                         | VER  | :x:    |                                |
 | ERC                         | VER  | :x:    |                                |
