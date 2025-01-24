@@ -135,26 +135,28 @@ N 280 -350 280 -290 {
 lab=I_BIAS}
 N 490 -580 650 -660 {
 lab=#net3}
+N 530 -660 690 -580 {
+lab=#net2}
 N 400 -390 400 -360 {
 lab=#net1}
 N 770 -390 770 -360 {
 lab=#net1}
-N 530 -660 690 -580 {
-lab=#net2}
 C {devices/ipin.sym} 105 -70 0 0 {name=p3 lab=VSS}
 C {devices/ipin.sym} 132.5 -740 0 0 {name=p1 lab=VDD}
 C {devices/ipin.sym} 330 -390 0 0 {name=p5 lab=VIP}
 C {devices/ipin.sym} 840 -390 0 1 {name=p6 lab=VIN}
-C {../design/AAL_COMP_LIBS/JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 360 -390 0 0 {name=diff1_MN7}
-C {../design/AAL_COMP_LIBS/JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 810 -390 0 1 {name=diff1_MN8}
+C {../design/AAL_COMP_LIBS/JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 360 -390 0 0 {name=diff1_MN1
+}
+C {../design/AAL_COMP_LIBS/JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 810 -390 0 1 {name=diff1_MN2
+}
 C {../design/AAL_COMP_LIBS/JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 840 -660 0 1 {name=load1_MP5 }
 C {../design/AAL_COMP_LIBS/JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 930 -660 0 0 {name=load1_MP6}
 C {../design/AAL_COMP_LIBS/JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 200 -660 0 1 {name=load1_MP1}
 C {../design/AAL_COMP_LIBS/JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 322.5 -660 0 0 {name=load1_MP2}
-C {../design/AAL_COMP_LIBS/JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 550 -260 0 0 {name=mirror2_MN10 }
-C {../design/AAL_COMP_LIBS/JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 320 -260 0 1 {name=mirror2_MN9 }
-C {../design/AAL_COMP_LIBS/JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 200 -150 0 1 {name=mirror1_MN11 }
-C {../design/AAL_COMP_LIBS/JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 930 -150 0 0 {name=mirror1_MN12}
+C {../design/AAL_COMP_LIBS/JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 550 -260 0 0 {name=mirror2_MN4 }
+C {../design/AAL_COMP_LIBS/JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 320 -260 0 1 {name=mirror2_MN3 }
+C {../design/AAL_COMP_LIBS/JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 200 -150 0 1 {name=mirror1_MN5 }
+C {../design/AAL_COMP_LIBS/JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 930 -150 0 0 {name=mirror1_MN6}
 C {../design/AAL_COMP_LIBS/JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 530 -660 0 1 {name=load1_MP3
 }
 C {../design/AAL_COMP_LIBS/JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 650 -660 0 0 {name=load1_MP4}
