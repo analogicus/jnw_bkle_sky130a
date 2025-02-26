@@ -8,4 +8,4 @@ E {}
 C {cborder/border_s.sym} 1390 -200 0 0 {
 user="bkle"
 company="bkle"}
-C {JNW_BKLE_SKY130A/COMP.sym} 810 -620 0 0 {name=x1}
+C {JNW_BKLE_SKY130A/COMP.sym} 810 -620 0 0 {name=xU1}
