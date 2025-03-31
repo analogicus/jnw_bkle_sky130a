@@ -1,11 +1,10 @@
-v {xschem version=3.4.5 file_version=1.2
-}
+v {xschem version=3.4.6 file_version=1.2}
 G {}
 K {}
 V {}
 S {}
 E {}
-C {cborder/border_s.sym} 1390 -200 0 0 {
+C {cborder/border_s.sym} 1420 -240 0 0 {
 user="bkle"
 company="bkle"}
-C {JNW_BKLE_SKY130A/COMP.sym} 810 -620 0 0 {name=xU1}
+C {JNW_BKLE_SKY130A/OTA_Manuel.sym} 1150 -650 0 0 {name=xU1}

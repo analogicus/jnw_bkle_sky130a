@@ -1,12 +1,9 @@
 magic
 tech sky130A
 magscale 1 1
-timestamp 1743432408
+timestamp 1743170539
 << checkpaint >>
 rect 0 0 0 0
-use OTA_Manuel U1_OTA_Manuel 
-transform 1 0 0 0 1 0
-box 0 0 3220 3600
 << labels >>
 << properties >>
 << end >>
