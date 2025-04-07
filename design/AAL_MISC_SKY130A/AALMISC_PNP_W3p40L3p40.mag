@@ -860,5 +860,5 @@ port 3 nsew
 flabel locali s 590 1102 708 1142 0 FreeSans 400 0 0 0 B
 port 4 nsew
 << properties >>
-string FIXED_BBOX 0 0 670 670
+string FIXED_BBOX 0 0 1340 1340
 << end >>

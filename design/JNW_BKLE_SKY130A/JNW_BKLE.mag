@@ -1,12 +1,92 @@
 magic
 tech sky130A
 magscale 1 1
-timestamp 1743432408
+timestamp 1744043309
 << checkpaint >>
 rect 0 0 0 0
-use OTA_Manuel U1_OTA_Manuel 
+use JNWATR_NCH_12C1F2 None_MN1 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
 transform 1 0 0 0 1 0
-box 0 0 3220 3600
+box 0 0 832 400
+use JNWATR_NCH_12CTAPTOP None_MN1_TAPTOP ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
+transform 1 0 0 0 1 400
+box 0 0 832 240
+use JNWATR_NCH_12CTAPBOT None_MN1_TAPBOT ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
+transform 1 0 0 0 1 -240
+box 0 0 832 240
+<< locali >>
+rect -250 750 1082 850
+<< locali >>
+rect -250 -450 1082 -350
+<< m1 >>
+rect -250 -350 -150 750
+<< m1 >>
+rect 982 -350 1082 750
+<< locali >>
+rect -257 743 -143 857
+<< m1 >>
+rect -257 743 -143 857
+<< viali >>
+rect -250 750 -150 850
+<< locali >>
+rect -257 -457 -143 -343
+<< m1 >>
+rect -257 -457 -143 -343
+<< viali >>
+rect -250 -450 -150 -350
+<< locali >>
+rect 975 743 1089 857
+<< m1 >>
+rect 975 743 1089 857
+<< viali >>
+rect 982 750 1082 850
+<< locali >>
+rect 975 -457 1089 -343
+<< m1 >>
+rect 975 -457 1089 -343
+<< viali >>
+rect 982 -450 1082 -350
+<< locali >>
+rect -400 900 1232 1000
+<< locali >>
+rect -400 -600 1232 -500
+<< m1 >>
+rect -400 -500 -300 900
+<< m1 >>
+rect 1132 -500 1232 900
+<< locali >>
+rect -407 893 -293 1007
+<< m1 >>
+rect -407 893 -293 1007
+<< viali >>
+rect -400 900 -300 1000
+<< locali >>
+rect -407 -607 -293 -493
+<< m1 >>
+rect -407 -607 -293 -493
+<< viali >>
+rect -400 -600 -300 -500
+<< locali >>
+rect 1125 893 1239 1007
+<< m1 >>
+rect 1125 893 1239 1007
+<< viali >>
+rect 1132 900 1232 1000
+<< locali >>
+rect 1125 -607 1239 -493
+<< m1 >>
+rect 1125 -607 1239 -493
+<< viali >>
+rect 1132 -600 1232 -500
+use OTA_Manuel U1_OTA_Manuel 
+transform 1 0 1732 0 1 0
+box -450 -650 3670 4250
+use COMP U2_COMP 
+transform 0 0 0 0 0 0
+box -450 -650 2114 3850
 << labels >>
+flabel locali s -250 750 1082 850 0 FreeSans 400 0 0 0 VDD
+port 4 nsew signal bidirectional
+flabel locali s -400 900 1232 1000 0 FreeSans 400 0 0 0 VSS
+port 5 nsew signal bidirectional
 << properties >>
 << end >>
