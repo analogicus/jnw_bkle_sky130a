@@ -11,9 +11,10 @@ N 840 -790 870 -790 {lab=VDD}
 N 870 -610 1270 -610 {lab=VSS}
 N 870 -650 870 -610 {lab=VSS}
 N 830 -650 870 -650 {lab=VSS}
-N 850 -690 870 -690 {lab=V_p}
-N 850 -670 870 -670 {lab=V_n}
-N 1250 -750 1250 -710 {lab=I_BIAS}
+N 1430 -750 1560 -750 {lab=#net1}
+N 1430 -690 1560 -690 {lab=#net2}
+N 1390 -720 1520 -720 {lab=#net3}
+N 1430 -720 1560 -720 {lab=#net3}
 C {cborder/border_s.sym} 1410 -240 0 0 {
 user="bkle"
 company="bkle"}
@@ -21,9 +22,11 @@ C {JNW_BKLE_SKY130A/OTA_Manuel.sym} 1020 -680 0 0 {name=xU1}
 C {JNW_BKLE_SKY130A/COMP.sym} 1150 -760 0 0 {name=xU2}
 C {devices/ipin.sym} 840 -790 0 0 {name=p1 lab=VDD}
 C {devices/ipin.sym} 830 -650 0 0 {name=p2 lab=VSS}
-C {devices/ipin.sym} 850 -690 0 0 {name=p3 lab=V_p}
-C {devices/ipin.sym} 850 -670 0 0 {name=p4 lab=V_n}
-C {devices/ipin.sym} 1190 -680 0 0 {name=p5 lab=VIN}
-C {devices/ipin.sym} 1190 -640 0 0 {name=p6 lab=VIP}
-C {devices/ipin.sym} 1250 -750 0 0 {name=p7 lab=I_BIAS}
-C {JNW_ATR_SKY130A/JNWATR_NCH_12C1F2.sym} 1290 -930 0 0 {name=xMN1 }
+C {JNW_ATR_SKY130A/JNWATR_NCH_12C1F2.sym} 1390 -720 0 0 {name=xMN1 }
+C {JNW_ATR_SKY130A/JNWATR_NCH_12C1F2.sym} 1520 -720 0 0 {name=xMN2 }
+C {AAL_MISC_SKY130A/AALMISC_PNP_W3p40L3p40.sym} 1280 -490 0 0 {name=Q1 }
+C {sky130_fd_pr/npn_05v5.sym} 1490 -480 0 0 {name=Q2
+model=npn_05v5_w1p00l2p00 m=1
+spiceprefix=X
+}
+C {JNW_TR_SKY130A/JNWTR_CAPX1.sym} 940 -550 0 0 {name=x1 }
