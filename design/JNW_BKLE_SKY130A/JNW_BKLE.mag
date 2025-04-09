@@ -1,95 +1,15 @@
 magic
 tech sky130A
-timestamp 1744118737
-<< locali >>
-rect -407 1000 -293 1007
-rect 1957 1000 2071 1007
-rect -407 900 -400 1000
-rect -300 900 1964 1000
-rect 2064 900 2071 1000
-rect -407 893 -293 900
-rect 1957 893 2071 900
-rect -257 850 -143 857
-rect 1807 850 1921 857
-rect -257 750 -250 850
-rect -150 750 1814 850
-rect 1914 750 1921 850
-rect -257 743 -143 750
-rect 1807 743 1921 750
-rect -257 -350 -143 -343
-rect 1807 -350 1921 -343
-rect -257 -450 -250 -350
-rect -150 -450 1814 -350
-rect 1914 -450 1921 -350
-rect -257 -457 -143 -450
-rect 1807 -457 1921 -450
-rect -407 -500 -293 -493
-rect 1957 -500 2071 -493
-rect -407 -600 -400 -500
-rect -300 -600 1964 -500
-rect 2064 -600 2071 -500
-rect -407 -607 -293 -600
-rect 1957 -607 2071 -600
-<< viali >>
-rect -400 900 -300 1000
-rect 1964 900 2064 1000
-rect -250 750 -150 850
-rect 1814 750 1914 850
-rect -250 -450 -150 -350
-rect 1814 -450 1914 -350
-rect -400 -600 -300 -500
-rect 1964 -600 2064 -500
-<< metal1 >>
-rect -407 1000 -293 1007
-rect -407 900 -400 1000
-rect -300 900 -293 1000
-rect -407 893 -293 900
-rect 1957 1000 2071 1007
-rect 1957 900 1964 1000
-rect 2064 900 2071 1000
-rect 1957 893 2071 900
-rect -400 -493 -300 893
-rect -257 850 -143 857
-rect -257 750 -250 850
-rect -150 750 -143 850
-rect -257 743 -143 750
-rect 1807 850 1921 857
-rect 1807 750 1814 850
-rect 1914 750 1921 850
-rect 1807 743 1921 750
-rect -250 -343 -150 743
-rect 1814 -343 1914 743
-rect -257 -350 -143 -343
-rect -257 -450 -250 -350
-rect -150 -450 -143 -350
-rect -257 -457 -143 -450
-rect 1807 -350 1921 -343
-rect 1807 -450 1814 -350
-rect 1914 -450 1921 -350
-rect 1807 -457 1921 -450
-rect 1964 -493 2064 893
-rect -407 -500 -293 -493
-rect -407 -600 -400 -500
-rect -300 -600 -293 -500
-rect -407 -607 -293 -600
-rect 1957 -500 2071 -493
-rect 1957 -600 1964 -500
-rect 2064 -600 2071 -500
-rect 1957 -607 2071 -600
-use JNWATR_NCH_12C1F2  None_MN1 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
-timestamp 1740610800
-transform 1 0 832 0 1 0
-box -92 -64 924 464
-use JNWATR_NCH_12CTAPTOP  None_MN1_TAPTOP ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
-timestamp 1740610800
-transform 1 0 832 0 1 400
-box -92 -64 924 304
-use JNWATR_NCH_12CTAPBOT  None_MN2_TAPBOT ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
-timestamp 1740610800
-transform 1 0 0 0 1 -240
-box -92 -64 924 304
-use JNWATR_NCH_12C1F2  None_MN2
-timestamp 1740610800
-transform 1 0 0 0 1 0
-box -92 -64 924 464
+magscale 1 1
+timestamp 1744203138
+<< checkpaint >>
+rect 0 0 0 0
+use COMP2 U1_COMP2 
+transform 1 0 4500 0 1 0
+box -450 -650 1602 3850
+use OTA_Manuel U2_OTA_Manuel 
+transform 1 0 6552 0 1 0
+box -600 -800 3820 4400
+<< labels >>
+<< properties >>
 << end >>

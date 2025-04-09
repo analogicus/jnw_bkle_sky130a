@@ -190,3 +190,5 @@ C {JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} -270 140 0 1 {name=xmirror3_MN3}
 C {JNW_ATR_SKY130A/JNWATR_PCH_12C5F0.sym} -450 -250 0 0 {name=xmirror1_MP4}
 C {JNW_TR_SKY130A/JNWTR_RPPO2.sym} -670 -180 1 0 {name=xR1 }
 C {JNW_TR_SKY130A/JNWTR_RPPO2.sym} -670 -70 1 0 {name=xR2 }
+C {devices/ipin.sym} -1070 -500 2 1 {name=p11 lab=AVDD
+}
