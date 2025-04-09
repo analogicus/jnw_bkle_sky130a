@@ -1,4 +1,5 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.6RC file_version=1.2
+}
 G {}
 K {}
 V {}
@@ -25,8 +26,4 @@ C {devices/ipin.sym} 830 -650 0 0 {name=p2 lab=VSS}
 C {JNW_ATR_SKY130A/JNWATR_NCH_12C1F2.sym} 1390 -720 0 0 {name=xMN1 }
 C {JNW_ATR_SKY130A/JNWATR_NCH_12C1F2.sym} 1520 -720 0 0 {name=xMN2 }
 C {AAL_MISC_SKY130A/AALMISC_PNP_W3p40L3p40.sym} 1280 -490 0 0 {name=Q1 }
-C {sky130_fd_pr/npn_05v5.sym} 1490 -480 0 0 {name=Q2
-model=npn_05v5_w1p00l2p00 m=1
-spiceprefix=X
-}
-C {JNW_TR_SKY130A/JNWTR_CAPX1.sym} 940 -550 0 0 {name=x1 }
+C {AAL_MISC_SKY130A/AALMISC_CAP50f.sym} 650 -460 0 0 {name=x2 }
