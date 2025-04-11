@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 1
-timestamp 1744203138
+timestamp 1744283293
 << checkpaint >>
 rect 0 0 0 0
 use JNWATR_PCH_4C1F2 diff1_MP6 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
@@ -173,6 +173,38 @@ rect 3663 -757 3777 -643
 << viali >>
 rect 3670 -750 3770 -650
 << locali >>
+rect -700 4400 3920 4500
+<< locali >>
+rect -700 -900 3920 -800
+<< m1 >>
+rect -700 -800 -600 4400
+<< m1 >>
+rect 3820 -800 3920 4400
+<< locali >>
+rect -707 4393 -593 4507
+<< m1 >>
+rect -707 4393 -593 4507
+<< viali >>
+rect -700 4400 -600 4500
+<< locali >>
+rect -707 -907 -593 -793
+<< m1 >>
+rect -707 -907 -593 -793
+<< viali >>
+rect -700 -900 -600 -800
+<< locali >>
+rect 3813 4393 3927 4507
+<< m1 >>
+rect 3813 4393 3927 4507
+<< viali >>
+rect 3820 4400 3920 4500
+<< locali >>
+rect 3813 -907 3927 -793
+<< m1 >>
+rect 3813 -907 3927 -793
+<< viali >>
+rect 3820 -900 3920 -800
+<< locali >>
 rect 1040 2300 1328 2340
 << locali >>
 rect 1040 300 1328 340
@@ -197,95 +229,97 @@ rect 2000 180 2160 220
 << locali >>
 rect 784 3500 1072 3540
 << locali >>
-rect -400 1432 3620 1528
+rect -550 1432 3770 1528
 << locali >>
-rect -407 1425 -293 1535
+rect -557 1425 -443 1535
 << m1 >>
-rect -407 1425 -293 1535
+rect -557 1425 -443 1535
 << viali >>
-rect -400 1432 -300 1528
+rect -550 1432 -450 1528
 << locali >>
-rect 3513 1425 3627 1535
+rect 3663 1425 3777 1535
 << m1 >>
-rect 3513 1425 3627 1535
+rect 3663 1425 3777 1535
 << viali >>
-rect 3520 1432 3620 1528
+rect 3670 1432 3770 1528
 << locali >>
-rect -400 2472 3620 2568
+rect -550 2472 3770 2568
 << locali >>
-rect -407 2465 -293 2575
+rect -557 2465 -443 2575
 << m1 >>
-rect -407 2465 -293 2575
+rect -557 2465 -443 2575
 << viali >>
-rect -400 2472 -300 2568
+rect -550 2472 -450 2568
 << locali >>
-rect 3513 2465 3627 2575
+rect 3663 2465 3777 2575
 << m1 >>
-rect 3513 2465 3627 2575
+rect 3663 2465 3777 2575
 << viali >>
-rect 3520 2472 3620 2568
+rect 3670 2472 3770 2568
 << locali >>
-rect -550 -168 3770 -72
+rect -700 -168 3920 -72
 << locali >>
-rect -557 -175 -443 -65
+rect -707 -175 -593 -65
 << m1 >>
-rect -557 -175 -443 -65
+rect -707 -175 -593 -65
 << viali >>
-rect -550 -168 -450 -72
+rect -700 -168 -600 -72
 << locali >>
-rect 3663 -175 3777 -65
+rect 3813 -175 3927 -65
 << m1 >>
-rect 3663 -175 3777 -65
+rect 3813 -175 3927 -65
 << viali >>
-rect 3670 -168 3770 -72
+rect 3820 -168 3920 -72
 << locali >>
-rect -550 872 3770 968
+rect -700 872 3920 968
 << locali >>
-rect -557 865 -443 975
+rect -707 865 -593 975
 << m1 >>
-rect -557 865 -443 975
+rect -707 865 -593 975
 << viali >>
-rect -550 872 -450 968
+rect -700 872 -600 968
 << locali >>
-rect 3663 865 3777 975
+rect 3813 865 3927 975
 << m1 >>
-rect 3663 865 3777 975
+rect 3813 865 3927 975
 << viali >>
-rect 3670 872 3770 968
+rect 3820 872 3920 968
 << locali >>
-rect -400 3672 3620 3768
+rect -550 3672 3770 3768
 << locali >>
-rect -407 3665 -293 3775
+rect -557 3665 -443 3775
 << m1 >>
-rect -407 3665 -293 3775
+rect -557 3665 -443 3775
 << viali >>
-rect -400 3672 -300 3768
+rect -550 3672 -450 3768
 << locali >>
-rect 3513 3665 3627 3775
+rect 3663 3665 3777 3775
 << m1 >>
-rect 3513 3665 3627 3775
+rect 3663 3665 3777 3775
 << viali >>
-rect 3520 3672 3620 3768
+rect 3670 3672 3770 3768
 << locali >>
-rect -400 3032 3620 3128
+rect -550 3032 3770 3128
 << locali >>
-rect -407 3025 -293 3135
+rect -557 3025 -443 3135
 << m1 >>
-rect -407 3025 -293 3135
+rect -557 3025 -443 3135
 << viali >>
-rect -400 3032 -300 3128
+rect -550 3032 -450 3128
 << locali >>
-rect 3513 3025 3627 3135
+rect 3663 3025 3777 3135
 << m1 >>
-rect 3513 3025 3627 3135
+rect 3663 3025 3777 3135
 << viali >>
-rect 3520 3032 3620 3128
+rect 3670 3032 3770 3128
 << labels >>
-flabel locali s -400 4100 3620 4200 0 FreeSans 400 0 0 0 VDD
+flabel locali s -550 4250 3770 4350 0 FreeSans 400 0 0 0 VDD
 port 23 nsew signal bidirectional
-flabel locali s -550 4250 3770 4350 0 FreeSans 400 0 0 0 VSS
+flabel locali s -700 4400 3920 4500 0 FreeSans 400 0 0 0 VSS
 port 24 nsew signal bidirectional
 flabel locali s -250 3950 3470 4050 0 FreeSans 400 0 0 0 AVDD
 port 28 nsew signal bidirectional
+flabel locali s -400 4100 3620 4200 0 FreeSans 400 0 0 0 BVDD
+port 29 nsew signal bidirectional
 << properties >>
 << end >>

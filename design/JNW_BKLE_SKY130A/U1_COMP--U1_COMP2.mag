@@ -1,0 +1,73 @@
+magic
+tech sky130A
+magscale 1 1
+timestamp 1744372385
+<< checkpaint >>
+rect 0 0 0 0
+<< locali >>
+rect 150 4550 2954 4650
+<< locali >>
+rect 150 150 2954 250
+<< m1 >>
+rect 150 250 250 4550
+<< m1 >>
+rect 2854 250 2954 4550
+<< locali >>
+rect 143 4543 257 4657
+<< m1 >>
+rect 143 4543 257 4657
+<< viali >>
+rect 150 4550 250 4650
+<< locali >>
+rect 143 143 257 257
+<< m1 >>
+rect 143 143 257 257
+<< viali >>
+rect 150 150 250 250
+<< locali >>
+rect 2847 4543 2961 4657
+<< m1 >>
+rect 2847 4543 2961 4657
+<< viali >>
+rect 2854 4550 2954 4650
+<< locali >>
+rect 2847 143 2961 257
+<< m1 >>
+rect 2847 143 2961 257
+<< viali >>
+rect 2854 150 2954 250
+<< locali >>
+rect 0 4700 3104 4800
+<< locali >>
+rect 0 0 3104 100
+<< m1 >>
+rect 0 100 100 4700
+<< m1 >>
+rect 3004 100 3104 4700
+<< locali >>
+rect -7 4693 107 4807
+<< m1 >>
+rect -7 4693 107 4807
+<< viali >>
+rect 0 4700 100 4800
+<< locali >>
+rect -7 -7 107 107
+<< m1 >>
+rect -7 -7 107 107
+<< viali >>
+rect 0 0 100 100
+<< locali >>
+rect 2997 4693 3111 4807
+<< m1 >>
+rect 2997 4693 3111 4807
+<< viali >>
+rect 3004 4700 3104 4800
+<< locali >>
+rect 2997 -7 3111 107
+<< m1 >>
+rect 2997 -7 3111 107
+<< viali >>
+rect 3004 0 3104 100
+<< labels >>
+<< properties >>
+<< end >>

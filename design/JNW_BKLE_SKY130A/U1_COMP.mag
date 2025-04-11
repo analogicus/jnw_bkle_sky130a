@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 1
-timestamp 1744381985
+timestamp 1744372385
 << checkpaint >>
 rect 0 0 0 0
 use JNWATR_NCH_4C5F0 diff1_MN1 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
@@ -196,16 +196,10 @@ rect 4149 425 4263 535
 rect 4149 425 4263 535
 << viali >>
 rect 4156 432 4256 528
-use COMP2 COMP--U1_COMP2 
-transform 1 0 4306 0 1 0
-box 0 0 3154 3650
-use COMP2 U1_COMP--U1_COMP2--U2_COMP2 
-transform 1 0 4836 0 1 0
-box 0 0 3154 4850
 << labels >>
 flabel locali s 0 2700 4256 2800 0 FreeSans 400 0 0 0 VSS
-port 7 nsew signal bidirectional
+port 5 nsew signal bidirectional
 flabel locali s 150 2550 4106 2650 0 FreeSans 400 0 0 0 VDD
-port 8 nsew signal bidirectional
+port 6 nsew signal bidirectional
 << properties >>
 << end >>
