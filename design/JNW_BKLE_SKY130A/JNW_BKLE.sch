@@ -1,4 +1,5 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.6RC file_version=1.2
+}
 G {}
 K {}
 V {}
@@ -20,7 +21,7 @@ N 1360 -670 1360 -650 {lab=VDD}
 N 1360 -620 1360 -590 {lab=VSS}
 N 1360 -590 1360 -570 {lab=VSS}
 N 1320 -810 1320 -620 {lab=VDD}
-C {cborder/border_s.sym} 1410 -210 0 0 {
+C {cborder/border_s.sym} 1410 -220 0 0 {
 user="bkle"
 company="bkle"}
 C {devices/ipin.sym} 900 -810 0 0 {name=p1 lab=VDD}

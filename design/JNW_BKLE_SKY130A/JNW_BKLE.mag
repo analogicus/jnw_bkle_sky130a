@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 1
-timestamp 1744381985
+timestamp 1744591828
 << checkpaint >>
 rect 0 0 0 0
 use JNWATR_NCH_12C1F2 None_MN1 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
@@ -109,13 +109,117 @@ rect 1525 425 1639 535
 rect 1525 425 1639 535
 << viali >>
 rect 1532 432 1632 528
+<< locali >>
+rect -250 5050 8750 5150
+<< locali >>
+rect -250 -450 8750 -350
+<< m1 >>
+rect -250 -350 -150 5050
+<< m1 >>
+rect 8650 -350 8750 5050
+<< locali >>
+rect -257 5043 -143 5157
+<< m1 >>
+rect -257 5043 -143 5157
+<< viali >>
+rect -250 5050 -150 5150
+<< locali >>
+rect -257 -457 -143 -343
+<< m1 >>
+rect -257 -457 -143 -343
+<< viali >>
+rect -250 -450 -150 -350
+<< locali >>
+rect 8643 5043 8757 5157
+<< m1 >>
+rect 8643 5043 8757 5157
+<< viali >>
+rect 8650 5050 8750 5150
+<< locali >>
+rect 8643 -457 8757 -343
+<< m1 >>
+rect 8643 -457 8757 -343
+<< viali >>
+rect 8650 -450 8750 -350
+<< locali >>
+rect -400 5200 8900 5300
+<< locali >>
+rect -400 -600 8900 -500
+<< m1 >>
+rect -400 -500 -300 5200
+<< m1 >>
+rect 8800 -500 8900 5200
+<< locali >>
+rect -407 5193 -293 5307
+<< m1 >>
+rect -407 5193 -293 5307
+<< viali >>
+rect -400 5200 -300 5300
+<< locali >>
+rect -407 -607 -293 -493
+<< m1 >>
+rect -407 -607 -293 -493
+<< viali >>
+rect -400 -600 -300 -500
+<< locali >>
+rect 8793 5193 8907 5307
+<< m1 >>
+rect 8793 5193 8907 5307
+<< viali >>
+rect 8800 5200 8900 5300
+<< locali >>
+rect 8793 -607 8907 -493
+<< m1 >>
+rect 8793 -607 8907 -493
+<< viali >>
+rect 8800 -600 8900 -500
+<< locali >>
+rect -550 5350 9050 5450
+<< locali >>
+rect -550 -750 9050 -650
+<< m1 >>
+rect -550 -650 -450 5350
+<< m1 >>
+rect 8950 -650 9050 5350
+<< locali >>
+rect -557 5343 -443 5457
+<< m1 >>
+rect -557 5343 -443 5457
+<< viali >>
+rect -550 5350 -450 5450
+<< locali >>
+rect -557 -757 -443 -643
+<< m1 >>
+rect -557 -757 -443 -643
+<< viali >>
+rect -550 -750 -450 -650
+<< locali >>
+rect 8943 5343 9057 5457
+<< m1 >>
+rect 8943 5343 9057 5457
+<< viali >>
+rect 8950 5350 9050 5450
+<< locali >>
+rect 8943 -757 9057 -643
+<< m1 >>
+rect 8943 -757 9057 -643
+<< viali >>
+rect 8950 -750 9050 -650
 use COMP U1_COMP 
 transform 1 0 1682 0 1 0
-box 0 0 4306 2850
+box 0 0 2814 4750
 << labels >>
-flabel locali s 150 1350 1482 1450 0 FreeSans 400 0 0 0 VDD
-port 4 nsew signal bidirectional
-flabel locali s 0 1500 1632 1600 0 FreeSans 400 0 0 0 VSS
-port 5 nsew signal bidirectional
+flabel locali s -400 5200 8900 5300 0 FreeSans 400 0 0 0 VDD
+port 129 nsew signal bidirectional
+flabel locali s -550 5350 9050 5450 0 FreeSans 400 0 0 0 VSS
+port 130 nsew signal bidirectional
+flabel locali s -250 5050 8750 5150 0 FreeSans 400 0 0 0 AVDD
+port 131 nsew signal bidirectional
+flabel locali s -400 5200 8900 5300 0 FreeSans 400 0 0 0 VDD
+port 129 nsew signal bidirectional
+flabel locali s -550 5350 9050 5450 0 FreeSans 400 0 0 0 VSS
+port 130 nsew signal bidirectional
+flabel locali s -250 5050 8750 5150 0 FreeSans 400 0 0 0 AVDD
+port 131 nsew signal bidirectional
 << properties >>
 << end >>
