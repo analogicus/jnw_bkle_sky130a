@@ -1,0 +1,131 @@
+magic
+tech sky130A
+magscale 1 1
+timestamp 1745089113
+<< checkpaint >>
+rect 0 0 0 0
+use JNWTR_RPPO4 None_RH2 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_TR_SKY130A
+transform 1 0 300 0 1 2920
+box 0 0 940 1720
+use JNWTR_RPPO4 None_RH3 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_TR_SKY130A
+transform 1 0 1424 0 1 2920
+box 0 0 940 1720
+use JNWTR_RPPO4 None_RH1 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_TR_SKY130A
+transform 1 0 300 0 1 500
+box 0 0 940 1720
+use JNWTR_CAPX1 None_CM1 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_TR_SKY130A
+transform 1 0 1452 0 1 1580
+box 0 0 540 540
+use JNWATR_NCH_2C1F2 None_MN1 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
+transform 1 0 300 0 1 5340
+box 0 0 512 400
+use JNWATR_NCH_2CTAPTOP None_MN1_TAPTOP ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
+transform 1 0 300 0 1 5740
+box 0 0 512 240
+use JNWATR_NCH_2CTAPBOT None_MN1_TAPBOT ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
+transform 1 0 300 0 1 5100
+box 0 0 512 240
+<< locali >>
+rect 100 6090 2564 6140
+<< locali >>
+rect 100 100 2564 150
+<< m1 >>
+rect 100 150 150 6090
+<< m1 >>
+rect 2514 150 2564 6090
+<< locali >>
+rect 93 6083 157 6147
+<< m1 >>
+rect 93 6083 157 6147
+<< viali >>
+rect 100 6090 150 6140
+<< locali >>
+rect 93 93 157 157
+<< m1 >>
+rect 93 93 157 157
+<< viali >>
+rect 100 100 150 150
+<< locali >>
+rect 2507 6083 2571 6147
+<< m1 >>
+rect 2507 6083 2571 6147
+<< viali >>
+rect 2514 6090 2564 6140
+<< locali >>
+rect 2507 93 2571 157
+<< m1 >>
+rect 2507 93 2571 157
+<< viali >>
+rect 2514 100 2564 150
+<< locali >>
+rect 0 6190 2664 6240
+<< locali >>
+rect 0 0 2664 50
+<< m1 >>
+rect 0 50 50 6190
+<< m1 >>
+rect 2614 50 2664 6190
+<< locali >>
+rect -7 6183 57 6247
+<< m1 >>
+rect -7 6183 57 6247
+<< viali >>
+rect 0 6190 50 6240
+<< locali >>
+rect -7 -7 57 57
+<< m1 >>
+rect -7 -7 57 57
+<< viali >>
+rect 0 0 50 50
+<< locali >>
+rect 2607 6183 2671 6247
+<< m1 >>
+rect 2607 6183 2671 6247
+<< viali >>
+rect 2614 6190 2664 6240
+<< locali >>
+rect 2607 -7 2671 57
+<< m1 >>
+rect 2607 -7 2671 57
+<< viali >>
+rect 2614 0 2664 50
+<< locali >>
+rect 252 5640 540 5680
+<< locali >>
+rect 0 5812 2664 5908
+<< locali >>
+rect -7 5805 57 5915
+<< m1 >>
+rect -7 5805 57 5915
+<< viali >>
+rect 0 5812 50 5908
+<< locali >>
+rect 2607 5805 2671 5915
+<< m1 >>
+rect 2607 5805 2671 5915
+<< viali >>
+rect 2614 5812 2664 5908
+<< locali >>
+rect 0 5172 2664 5268
+<< locali >>
+rect -7 5165 57 5275
+<< m1 >>
+rect -7 5165 57 5275
+<< viali >>
+rect 0 5172 50 5268
+<< locali >>
+rect 2607 5165 2671 5275
+<< m1 >>
+rect 2607 5165 2671 5275
+<< viali >>
+rect 2614 5172 2664 5268
+use OTA U2_OTA 
+transform 1 0 2714 0 1 0
+box 0 0 5306 9090
+<< labels >>
+flabel locali s 100 6090 2564 6140 0 FreeSans 400 0 0 0 VDD
+port 5 nsew signal bidirectional
+flabel locali s 0 6190 2664 6240 0 FreeSans 400 0 0 0 VSS
+port 6 nsew signal bidirectional
+<< properties >>
+<< end >>

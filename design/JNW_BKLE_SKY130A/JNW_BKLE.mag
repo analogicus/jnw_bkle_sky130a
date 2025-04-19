@@ -1,225 +1,80 @@
 magic
 tech sky130A
 magscale 1 1
-timestamp 1744591828
+timestamp 1745089113
 << checkpaint >>
 rect 0 0 0 0
-use JNWATR_NCH_12C1F2 None_MN1 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
-transform 1 0 400 0 1 600
-box 0 0 832 400
-use JNWATR_NCH_12CTAPTOP None_MN1_TAPTOP ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
-transform 1 0 400 0 1 1000
-box 0 0 832 240
-use JNWATR_NCH_12CTAPBOT None_MN1_TAPBOT ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
-transform 1 0 400 0 1 360
-box 0 0 832 240
 << locali >>
-rect 150 1350 1482 1450
+rect -100 9090 8070 9140
 << locali >>
-rect 150 150 1482 250
+rect -100 -100 8070 -50
 << m1 >>
-rect 150 250 250 1350
+rect -100 -50 -50 9090
 << m1 >>
-rect 1382 250 1482 1350
+rect 8020 -50 8070 9090
 << locali >>
-rect 143 1343 257 1457
+rect -107 9083 -43 9147
 << m1 >>
-rect 143 1343 257 1457
+rect -107 9083 -43 9147
 << viali >>
-rect 150 1350 250 1450
+rect -100 9090 -50 9140
 << locali >>
-rect 143 143 257 257
+rect -107 -107 -43 -43
 << m1 >>
-rect 143 143 257 257
+rect -107 -107 -43 -43
 << viali >>
-rect 150 150 250 250
+rect -100 -100 -50 -50
 << locali >>
-rect 1375 1343 1489 1457
+rect 8013 9083 8077 9147
 << m1 >>
-rect 1375 1343 1489 1457
+rect 8013 9083 8077 9147
 << viali >>
-rect 1382 1350 1482 1450
+rect 8020 9090 8070 9140
 << locali >>
-rect 1375 143 1489 257
+rect 8013 -107 8077 -43
 << m1 >>
-rect 1375 143 1489 257
+rect 8013 -107 8077 -43
 << viali >>
-rect 1382 150 1482 250
+rect 8020 -100 8070 -50
 << locali >>
-rect 0 1500 1632 1600
+rect -200 9190 8170 9240
 << locali >>
-rect 0 0 1632 100
+rect -200 -200 8170 -150
 << m1 >>
-rect 0 100 100 1500
+rect -200 -150 -150 9190
 << m1 >>
-rect 1532 100 1632 1500
+rect 8120 -150 8170 9190
 << locali >>
-rect -7 1493 107 1607
+rect -207 9183 -143 9247
 << m1 >>
-rect -7 1493 107 1607
+rect -207 9183 -143 9247
 << viali >>
-rect 0 1500 100 1600
+rect -200 9190 -150 9240
 << locali >>
-rect -7 -7 107 107
+rect -207 -207 -143 -143
 << m1 >>
-rect -7 -7 107 107
+rect -207 -207 -143 -143
 << viali >>
-rect 0 0 100 100
+rect -200 -200 -150 -150
 << locali >>
-rect 1525 1493 1639 1607
+rect 8113 9183 8177 9247
 << m1 >>
-rect 1525 1493 1639 1607
+rect 8113 9183 8177 9247
 << viali >>
-rect 1532 1500 1632 1600
+rect 8120 9190 8170 9240
 << locali >>
-rect 1525 -7 1639 107
+rect 8113 -207 8177 -143
 << m1 >>
-rect 1525 -7 1639 107
+rect 8113 -207 8177 -143
 << viali >>
-rect 1532 0 1632 100
-<< locali >>
-rect 352 900 640 940
-<< locali >>
-rect 992 780 1152 820
-<< locali >>
-rect 0 1072 1632 1168
-<< locali >>
-rect -7 1065 107 1175
-<< m1 >>
-rect -7 1065 107 1175
-<< viali >>
-rect 0 1072 100 1168
-<< locali >>
-rect 1525 1065 1639 1175
-<< m1 >>
-rect 1525 1065 1639 1175
-<< viali >>
-rect 1532 1072 1632 1168
-<< locali >>
-rect 0 432 1632 528
-<< locali >>
-rect -7 425 107 535
-<< m1 >>
-rect -7 425 107 535
-<< viali >>
-rect 0 432 100 528
-<< locali >>
-rect 1525 425 1639 535
-<< m1 >>
-rect 1525 425 1639 535
-<< viali >>
-rect 1532 432 1632 528
-<< locali >>
-rect -250 5050 8750 5150
-<< locali >>
-rect -250 -450 8750 -350
-<< m1 >>
-rect -250 -350 -150 5050
-<< m1 >>
-rect 8650 -350 8750 5050
-<< locali >>
-rect -257 5043 -143 5157
-<< m1 >>
-rect -257 5043 -143 5157
-<< viali >>
-rect -250 5050 -150 5150
-<< locali >>
-rect -257 -457 -143 -343
-<< m1 >>
-rect -257 -457 -143 -343
-<< viali >>
-rect -250 -450 -150 -350
-<< locali >>
-rect 8643 5043 8757 5157
-<< m1 >>
-rect 8643 5043 8757 5157
-<< viali >>
-rect 8650 5050 8750 5150
-<< locali >>
-rect 8643 -457 8757 -343
-<< m1 >>
-rect 8643 -457 8757 -343
-<< viali >>
-rect 8650 -450 8750 -350
-<< locali >>
-rect -400 5200 8900 5300
-<< locali >>
-rect -400 -600 8900 -500
-<< m1 >>
-rect -400 -500 -300 5200
-<< m1 >>
-rect 8800 -500 8900 5200
-<< locali >>
-rect -407 5193 -293 5307
-<< m1 >>
-rect -407 5193 -293 5307
-<< viali >>
-rect -400 5200 -300 5300
-<< locali >>
-rect -407 -607 -293 -493
-<< m1 >>
-rect -407 -607 -293 -493
-<< viali >>
-rect -400 -600 -300 -500
-<< locali >>
-rect 8793 5193 8907 5307
-<< m1 >>
-rect 8793 5193 8907 5307
-<< viali >>
-rect 8800 5200 8900 5300
-<< locali >>
-rect 8793 -607 8907 -493
-<< m1 >>
-rect 8793 -607 8907 -493
-<< viali >>
-rect 8800 -600 8900 -500
-<< locali >>
-rect -550 5350 9050 5450
-<< locali >>
-rect -550 -750 9050 -650
-<< m1 >>
-rect -550 -650 -450 5350
-<< m1 >>
-rect 8950 -650 9050 5350
-<< locali >>
-rect -557 5343 -443 5457
-<< m1 >>
-rect -557 5343 -443 5457
-<< viali >>
-rect -550 5350 -450 5450
-<< locali >>
-rect -557 -757 -443 -643
-<< m1 >>
-rect -557 -757 -443 -643
-<< viali >>
-rect -550 -750 -450 -650
-<< locali >>
-rect 8943 5343 9057 5457
-<< m1 >>
-rect 8943 5343 9057 5457
-<< viali >>
-rect 8950 5350 9050 5450
-<< locali >>
-rect 8943 -757 9057 -643
-<< m1 >>
-rect 8943 -757 9057 -643
-<< viali >>
-rect 8950 -750 9050 -650
-use COMP U1_COMP 
-transform 1 0 1682 0 1 0
-box 0 0 2814 4750
+rect 8120 -200 8170 -150
+use JNW_GR06 U1_JNW_GR06 
+transform 1 0 0 0 1 0
+box 0 0 2714 6290
 << labels >>
-flabel locali s -400 5200 8900 5300 0 FreeSans 400 0 0 0 VDD
-port 129 nsew signal bidirectional
-flabel locali s -550 5350 9050 5450 0 FreeSans 400 0 0 0 VSS
-port 130 nsew signal bidirectional
-flabel locali s -250 5050 8750 5150 0 FreeSans 400 0 0 0 AVDD
-port 131 nsew signal bidirectional
-flabel locali s -400 5200 8900 5300 0 FreeSans 400 0 0 0 VDD
-port 129 nsew signal bidirectional
-flabel locali s -550 5350 9050 5450 0 FreeSans 400 0 0 0 VSS
-port 130 nsew signal bidirectional
-flabel locali s -250 5050 8750 5150 0 FreeSans 400 0 0 0 AVDD
-port 131 nsew signal bidirectional
+flabel locali s -100 9090 8070 9140 0 FreeSans 400 0 0 0 VDD
+port 51 nsew signal bidirectional
+flabel locali s -200 9190 8170 9240 0 FreeSans 400 0 0 0 VSS
+port 52 nsew signal bidirectional
 << properties >>
 << end >>

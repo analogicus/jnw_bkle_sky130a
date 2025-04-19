@@ -1,4 +1,4 @@
-v {xschem version=3.4.6RC file_version=1.2
+v {xschem version=3.4.4 file_version=1.2
 }
 G {}
 K {}
@@ -21,10 +21,21 @@ N 1360 -670 1360 -650 {lab=VDD}
 N 1360 -620 1360 -590 {lab=VSS}
 N 1360 -590 1360 -570 {lab=VSS}
 N 1320 -810 1320 -620 {lab=VDD}
+N 1360 -810 1510 -810 {
+lab=VDD}
+N 1510 -810 1510 -660 {
+lab=VDD}
+N 1510 -560 1510 -480 {
+lab=VSS}
+N 1360 -480 1510 -480 {
+lab=VSS}
+N 980 -810 980 -640 {
+lab=VDD}
+N 980 -600 980 -480 {
+lab=VSS}
 C {cborder/border_s.sym} 1410 -220 0 0 {
 user="bkle"
 company="bkle"}
 C {devices/ipin.sym} 900 -810 0 0 {name=p1 lab=VDD}
 C {devices/ipin.sym} 900 -480 0 0 {name=p2 lab=VSS}
-C {JNW_BKLE_SKY130A/COMP.sym} 1060 -720 0 0 {name=xU1}
-C {JNW_ATR_SKY130A/JNWATR_NCH_12C1F2.sym} 1320 -620 0 0 {name=xMN1}
+C {JNW_BKLE_SKY130A/JNW_GR06.sym} 1130 -620 0 0 {name=xU1}
