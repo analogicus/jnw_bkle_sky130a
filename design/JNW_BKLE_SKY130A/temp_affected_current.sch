@@ -1,5 +1,4 @@
-v {xschem version=3.4.4 file_version=1.2
-}
+v {xschem version=3.4.6 file_version=1.2}
 G {}
 K {}
 V {}
@@ -120,4 +119,4 @@ C {JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 960 400 0 0 {name=xmirror1_MN2}
 C {JNW_TR_SKY130A/JNWTR_RPPO8.sym} 380 340 0 0 {name=xRH2 }
 C {JNW_TR_SKY130A/JNWTR_RPPO4.sym} 460 290 2 0 {name=xRH1 }
 C {AAL_MISC_SKY130A/AALMISC_PNP_W3p40L3p40.sym} -360 450 0 0 {name=xload1_QP1 }
-C {AAL_MISC_SKY130A/AALMISC_PNP_W3p40L3p40.sym} 380 450 0 1 {name=xload1_QP2[0:7]}
+C {AAL_MISC_SKY130A/AALMISC_PNP_W3p40L3p40.sym} 390 460 0 1 {name=xload1_QP2[0:7]}

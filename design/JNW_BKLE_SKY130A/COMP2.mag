@@ -1,9 +1,9 @@
 magic
 tech sky130A
 magscale 1 1
-timestamp 1745074642
+timestamp 1745333906
 << checkpaint >>
-rect 0 0 0 0
+rect 0 0 1000 1000
 use JNWATR_NCH_4C5F0 diff1_MN1 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
 transform 1 0 876 0 1 2500
 box 0 0 576 400
@@ -29,41 +29,41 @@ use JNWATR_PCH_4CTAPBOT load1_MP6_TAPBOT ~/aicex/ip/jnw_bkle_sky130A/design/JNW_
 transform 1 0 300 0 1 260
 box 0 0 576 240
 use JNWATR_PCH_4C5F0 load1_MP1 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
-transform 1 0 300 0 1 1300
-box 0 0 576 400
-use JNWATR_PCH_4CTAPTOP load1_MP1_TAPTOP ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
-transform 1 0 300 0 1 1700
-box 0 0 576 240
-use JNWATR_PCH_4C5F0 load1_MP2 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
-transform 1 0 876 0 1 1300
-box 0 0 576 400
-use JNWATR_PCH_4CTAPTOP load1_MP2_TAPTOP ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
-transform 1 0 876 0 1 1700
-box 0 0 576 240
-use JNWATR_NCH_4C5F0 mirror2_MN4 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
-transform 1 0 300 0 1 3300
-box 0 0 576 400
-use JNWATR_NCH_4CTAPTOP mirror2_MN4_TAPTOP ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
-transform 1 0 300 0 1 3700
-box 0 0 576 240
-use JNWATR_NCH_4C5F0 mirror2_MN3 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
-transform 1 0 876 0 1 3300
-box 0 0 576 400
-use JNWATR_NCH_4CTAPTOP mirror2_MN3_TAPTOP ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
-transform 1 0 876 0 1 3700
-box 0 0 576 240
-use JNWATR_NCH_4C5F0 mirror1_MN5 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
-transform 1 0 876 0 1 2900
-box 0 0 576 400
-use JNWATR_NCH_4C5F0 mirror1_MN6 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
-transform 1 0 300 0 1 2900
-box 0 0 576 400
-use JNWATR_PCH_4C5F0 load1_MP3 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
-transform 1 0 876 0 1 900
-box 0 0 576 400
-use JNWATR_PCH_4C5F0 load1_MP4 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
 transform 1 0 300 0 1 900
 box 0 0 576 400
+use JNWATR_PCH_4C5F0 load1_MP2 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
+transform 1 0 876 0 1 900
+box 0 0 576 400
+use JNWATR_NCH_4C5F0 mirror2_MN4 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
+transform 1 0 300 0 1 2900
+box 0 0 576 400
+use JNWATR_NCH_4C5F0 mirror2_MN3 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
+transform 1 0 876 0 1 2900
+box 0 0 576 400
+use JNWATR_NCH_4C5F0 mirror1_MN5 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
+transform 1 0 300 0 1 3300
+box 0 0 576 400
+use JNWATR_NCH_4CTAPTOP mirror1_MN5_TAPTOP ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
+transform 1 0 300 0 1 3700
+box 0 0 576 240
+use JNWATR_NCH_4C5F0 mirror1_MN6 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
+transform 1 0 876 0 1 3300
+box 0 0 576 400
+use JNWATR_NCH_4CTAPTOP mirror1_MN6_TAPTOP ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
+transform 1 0 876 0 1 3700
+box 0 0 576 240
+use JNWATR_PCH_4C5F0 load1_MP3 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
+transform 1 0 876 0 1 1300
+box 0 0 576 400
+use JNWATR_PCH_4CTAPTOP load1_MP3_TAPTOP ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
+transform 1 0 876 0 1 1700
+box 0 0 576 240
+use JNWATR_PCH_4C5F0 load1_MP4 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
+transform 1 0 300 0 1 1300
+box 0 0 576 400
+use JNWATR_PCH_4CTAPTOP load1_MP4_TAPTOP ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
+transform 1 0 300 0 1 1700
+box 0 0 576 240
 << locali >>
 rect 100 4050 1652 4100
 << locali >>
@@ -135,27 +135,27 @@ rect 1212 680 1372 720
 << locali >>
 rect 252 800 540 840
 << locali >>
-rect 252 1600 540 1640
+rect 252 1200 540 1240
 << locali >>
-rect 828 1600 1116 1640
+rect 828 1200 1116 1240
 << locali >>
-rect 1212 1480 1372 1520
+rect 1212 1080 1372 1120
 << locali >>
-rect 252 3600 540 3640
-<< locali >>
-rect 828 3600 1116 3640
-<< locali >>
-rect 1212 3480 1372 3520
+rect 252 3200 540 3240
 << locali >>
 rect 828 3200 1116 3240
 << locali >>
 rect 1212 3080 1372 3120
 << locali >>
-rect 252 3200 540 3240
+rect 252 3600 540 3640
 << locali >>
-rect 828 1200 1116 1240
+rect 636 3480 796 3520
 << locali >>
-rect 252 1200 540 1240
+rect 828 3600 1116 3640
+<< locali >>
+rect 828 1600 1116 1640
+<< locali >>
+rect 252 1600 540 1640
 << locali >>
 rect 0 2332 1752 2428
 << locali >>
@@ -185,20 +185,6 @@ rect 1595 325 1659 435
 << viali >>
 rect 1602 332 1652 428
 << locali >>
-rect 100 1772 1652 1868
-<< locali >>
-rect 93 1765 157 1875
-<< m1 >>
-rect 93 1765 157 1875
-<< viali >>
-rect 100 1772 150 1868
-<< locali >>
-rect 1595 1765 1659 1875
-<< m1 >>
-rect 1595 1765 1659 1875
-<< viali >>
-rect 1602 1772 1652 1868
-<< locali >>
 rect 0 3772 1752 3868
 << locali >>
 rect -7 3765 57 3875
@@ -212,10 +198,36 @@ rect 1695 3765 1759 3875
 rect 1695 3765 1759 3875
 << viali >>
 rect 1702 3772 1752 3868
+<< locali >>
+rect 100 1772 1652 1868
+<< locali >>
+rect 93 1765 157 1875
+<< m1 >>
+rect 93 1765 157 1875
+<< viali >>
+rect 100 1772 150 1868
+<< locali >>
+rect 1595 1765 1659 1875
+<< m1 >>
+rect 1595 1765 1659 1875
+<< viali >>
+rect 1602 1772 1652 1868
+use COMP3 U1_COMP3 
+transform 1 0 9522 0 1 0
+box 0 0 1802 4250
+use COMP3 U1_COMP3 
+transform 1 0 9522 0 1 0
+box 0 0 1802 4250
+use COMP3 U1_COMP3 
+transform 1 0 9522 0 1 0
+box 0 0 1802 4250
+use COMP3 U1_COMP3 
+transform 1 0 9522 0 1 0
+box 0 0 1802 4250
 << labels >>
 flabel locali s 0 4150 1752 4200 0 FreeSans 400 0 0 0 VSS
-port 24 nsew signal bidirectional
+port 135 nsew signal bidirectional
 flabel locali s 100 4050 1652 4100 0 FreeSans 400 0 0 0 VDD
-port 25 nsew signal bidirectional
+port 136 nsew signal bidirectional
 << properties >>
 << end >>

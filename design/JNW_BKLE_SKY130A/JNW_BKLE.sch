@@ -1,5 +1,4 @@
-v {xschem version=3.4.4 file_version=1.2
-}
+v {xschem version=3.4.6 file_version=1.2}
 G {}
 K {}
 V {}
@@ -33,9 +32,10 @@ N 980 -810 980 -640 {
 lab=VDD}
 N 980 -600 980 -480 {
 lab=VSS}
-C {cborder/border_s.sym} 1410 -220 0 0 {
+N 1510 -810 1650 -810 {lab=VDD}
+C {cborder/border_s.sym} 1420 -220 0 0 {
 user="bkle"
 company="bkle"}
 C {devices/ipin.sym} 900 -810 0 0 {name=p1 lab=VDD}
 C {devices/ipin.sym} 900 -480 0 0 {name=p2 lab=VSS}
-C {JNW_BKLE_SKY130A/JNW_GR06.sym} 1130 -620 0 0 {name=xU1}
+C {JNW_BKLE_SKY130A/COMP4.sym} 1390 -710 0 0 {name=xU1}

@@ -1,5 +1,4 @@
-v {xschem version=3.4.4 file_version=1.2
-}
+v {xschem version=3.4.6 file_version=1.2}
 G {}
 K {}
 V {}
@@ -141,16 +140,20 @@ N 400 -390 770 -390 {
 lab=VSS}
 N 710 -390 710 -70 {
 lab=VSS}
-N 0 -710 160 -710 {}
-N 0 -710 0 -460 {}
-N 0 -360 0 -90 {}
-N 0 -90 140 -90 {}
-N 140 -90 140 -70 {}
-N -80 -430 -80 -390 {}
-N -80 -520 -80 -430 {}
-N -80 -520 970 -520 {}
-N 80 -410 260 -410 {}
-N 260 -410 260 -350 {}
+N 0 -710 160 -710 {lab=VDD}
+N 0 -710 0 -460 {lab=VDD}
+N 0 -360 0 -90 {lab=VSS}
+N 0 -90 140 -90 {lab=VSS}
+N 140 -90 140 -70 {lab=VSS}
+N -80 -430 -80 -390 {lab=VO}
+N -80 -520 -80 -430 {lab=VO}
+N -80 -520 970 -520 {lab=VO}
+N 80 -410 260 -410 {lab=I_BIAS}
+N 260 -410 260 -350 {lab=I_BIAS}
+N 1160 -740 1160 -460 {lab=VDD}
+N 970 -740 1160 -740 {lab=VDD}
+N 1160 -360 1160 -70 {lab=VSS}
+N 970 -70 1160 -70 {lab=VSS}
 C {devices/ipin.sym} 105 -70 0 0 {name=p3 lab=VSS}
 C {devices/ipin.sym} 132.5 -740 0 0 {name=p1 lab=VDD}
 C {devices/ipin.sym} 330 -390 0 0 {name=p5 lab=VIP}
@@ -173,3 +176,6 @@ C {JNW_ATR_SKY130A/JNWATR_PCH_12C5F0.sym} 650 -660 0 0 {name=xload1_MP4}
 C {devices/opin.sym} 1000 -410 0 0 {name=p4 lab=VO}
 C {devices/ipin.sym} 240 -350 0 0 {name=p2 lab=I_BIAS}
 C {JNW_BKLE_SKY130A/COMP2.sym} -120 -510 0 0 {name=xU3}
+C {JNW_BKLE_SKY130A/COMP2.sym} 1040 -510 0 0 {name=xU2}
+C {JNW_BKLE_SKY130A/COMP2.sym} 1230 -490 0 0 {name=xU1}
+C {JNW_BKLE_SKY130A/COMP2.sym} 1390 -550 0 0 {name=xU4}
