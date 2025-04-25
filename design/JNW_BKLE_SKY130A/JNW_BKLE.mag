@@ -1,17 +1,17 @@
 magic
 tech sky130A
 magscale 1 1
-timestamp 1745333906
+timestamp 1745590424
 << checkpaint >>
-rect 0 0 1000 1000
+rect 0 0 1 1
 << locali >>
-rect -100 4250 16780 4300
+rect -100 4250 22698 4300
 << locali >>
-rect -100 -100 16780 -50
+rect -100 -100 22698 -50
 << m1 >>
 rect -100 -50 -50 4250
 << m1 >>
-rect 16730 -50 16780 4250
+rect 22648 -50 22698 4250
 << locali >>
 rect -107 4243 -43 4307
 << m1 >>
@@ -25,25 +25,25 @@ rect -107 -107 -43 -43
 << viali >>
 rect -100 -100 -50 -50
 << locali >>
-rect 16723 4243 16787 4307
+rect 22641 4243 22705 4307
 << m1 >>
-rect 16723 4243 16787 4307
+rect 22641 4243 22705 4307
 << viali >>
-rect 16730 4250 16780 4300
+rect 22648 4250 22698 4300
 << locali >>
-rect 16723 -107 16787 -43
+rect 22641 -107 22705 -43
 << m1 >>
-rect 16723 -107 16787 -43
+rect 22641 -107 22705 -43
 << viali >>
-rect 16730 -100 16780 -50
+rect 22648 -100 22698 -50
 << locali >>
-rect -200 4350 16880 4400
+rect -200 4350 22798 4400
 << locali >>
-rect -200 -200 16880 -150
+rect -200 -200 22798 -150
 << m1 >>
 rect -200 -150 -150 4350
 << m1 >>
-rect 16830 -150 16880 4350
+rect 22748 -150 22798 4350
 << locali >>
 rect -207 4343 -143 4407
 << m1 >>
@@ -57,24 +57,27 @@ rect -207 -207 -143 -143
 << viali >>
 rect -200 -200 -150 -150
 << locali >>
-rect 16823 4343 16887 4407
+rect 22741 4343 22805 4407
 << m1 >>
-rect 16823 4343 16887 4407
+rect 22741 4343 22805 4407
 << viali >>
-rect 16830 4350 16880 4400
+rect 22748 4350 22798 4400
 << locali >>
-rect 16823 -207 16887 -143
+rect 22741 -207 22805 -143
 << m1 >>
-rect 16823 -207 16887 -143
+rect 22741 -207 22805 -143
 << viali >>
-rect 16830 -200 16880 -150
+rect 22748 -200 22798 -150
 use COMP4 U1_COMP4 
 transform 1 0 0 0 1 0
 box 0 0 2314 4250
+use COMP4 U2_COMP4 
+transform 1 0 5406 0 1 5000
+box 0 0 2314 4250
 << labels >>
-flabel locali s -100 4250 16780 4300 0 FreeSans 400 0 0 0 VDD
-port 354 nsew signal bidirectional
-flabel locali s -200 4350 16880 4400 0 FreeSans 400 0 0 0 VSS
-port 355 nsew signal bidirectional
+flabel locali s -100 4250 22698 4300 0 FreeSans 400 0 0 0 VDD
+port 471 nsew signal bidirectional
+flabel locali s -200 4350 22798 4400 0 FreeSans 400 0 0 0 VSS
+port 472 nsew signal bidirectional
 << properties >>
 << end >>

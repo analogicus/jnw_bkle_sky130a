@@ -39,3 +39,4 @@ company="bkle"}
 C {devices/ipin.sym} 900 -810 0 0 {name=p1 lab=VDD}
 C {devices/ipin.sym} 900 -480 0 0 {name=p2 lab=VSS}
 C {JNW_BKLE_SKY130A/COMP4.sym} 1390 -710 0 0 {name=xU1}
+C {JNW_BKLE_SKY130A/COMP4.sym} 1610 -710 0 0 {name=xU2}
