@@ -1,13 +1,12 @@
-v {xschem version=3.4.4 file_version=1.2
-}
+v {xschem version=3.4.6 file_version=1.2}
 G {}
 K {}
 V {}
 S {}
 E {}
-N -90 -40 -90 40 {lab=GATE}
+N -90 -40 -90 40 {lab=VSS}
 N 100 -40 100 40 {lab=OUT}
-N -50 70 60 70 {lab=GATE}
+N -50 70 60 70 {lab=VSS}
 N -90 100 -90 150 {lab=VSS}
 N -90 150 100 150 {lab=VSS}
 N 100 100 100 150 {lab=VSS}
@@ -17,8 +16,8 @@ N -140 120 -90 120 {lab=VSS}
 N 100 70 150 70 {lab=VSS}
 N 150 70 150 120 {lab=VSS}
 N 100 120 150 120 {lab=VSS}
-N 0 -0 -0 70 {lab=GATE}
-N -90 -0 0 -0 {lab=GATE}
+N 0 -0 -0 70 {lab=VSS}
+N -90 -0 0 -0 {lab=VSS}
 N -90 -140 -90 -100 {lab=OTA_SPLIT}
 N -90 -140 100 -140 {lab=OTA_SPLIT}
 N 100 -140 100 -100 {lab=OTA_SPLIT}
