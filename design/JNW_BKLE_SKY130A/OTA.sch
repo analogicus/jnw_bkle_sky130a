@@ -4,9 +4,9 @@ K {}
 V {}
 S {}
 E {}
-N -90 -40 -90 40 {lab=VSS}
+N -90 -40 -90 40 {lab=GATE}
 N 100 -40 100 40 {lab=OUT}
-N -50 70 60 70 {lab=VSS}
+N -50 70 60 70 {lab=GATE}
 N -90 100 -90 150 {lab=VSS}
 N -90 150 100 150 {lab=VSS}
 N 100 100 100 150 {lab=VSS}
@@ -16,8 +16,8 @@ N -140 120 -90 120 {lab=VSS}
 N 100 70 150 70 {lab=VSS}
 N 150 70 150 120 {lab=VSS}
 N 100 120 150 120 {lab=VSS}
-N 0 -0 -0 70 {lab=VSS}
-N -90 -0 0 -0 {lab=VSS}
+N 0 -0 -0 70 {lab=GATE}
+N -90 -0 0 -0 {lab=GATE}
 N -90 -140 -90 -100 {lab=OTA_SPLIT}
 N -90 -140 100 -140 {lab=OTA_SPLIT}
 N 100 -140 100 -100 {lab=OTA_SPLIT}
@@ -63,6 +63,10 @@ N -0 -350 20 -350 {
 lab=VDD}
 N -370 -30 -370 -20 {
 lab=AFTER_RESISTOR1}
+N 20 -350 240 -350 {lab=VDD}
+N 240 -350 240 -230 {lab=VDD}
+N 240 -160 240 220 {lab=VSS}
+N -0 220 240 220 {lab=VSS}
 C {devices/ipin.sym} -220 -70 0 0 {name=p1 lab=IN+}
 C {devices/ipin.sym} 220 -70 0 1 {name=p2 lab=IN-}
 C {devices/ipin.sym} -490 -350 0 0 {name=p3 lab=VDD}
@@ -82,3 +86,4 @@ C {devices/lab_wire.sym} -370 -30 0 0 {name=p10 sig_type=std_logic lab=AFTER_RES
 C {JNW_TR_SKY130A/JNWTR_RPPO16.sym} -370 -110 1 0 {name=xRH1}
 C {JNW_TR_SKY130A/JNWTR_RPPO16.sym} -370 -20 1 0 {name=xRH2}
 C {JNW_TR_SKY130A/JNWTR_RPPO16.sym} -370 70 1 0 {name=xRH3}
+C {AAL_MISC_SKY130A/AALMISC_CAP50f.sym} 240 -170 0 0 {name=xCM1}

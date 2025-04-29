@@ -1,44 +1,44 @@
 magic
 tech sky130A
 magscale 1 1
-timestamp 1745323676
+timestamp 1745918167
 << checkpaint >>
-rect 0 0 1000 1000
+rect 0 0 1 1
 use JNWTR_RPPO4 None_RH2 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_TR_SKY130A
-transform 1 0 300 0 1 2920
+transform 1 0 300 0 1 2270
 box 0 0 940 1720
 use JNWTR_RPPO4 None_RH3 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_TR_SKY130A
-transform 1 0 300 0 1 5340
+transform 1 0 300 0 1 4090
 box 0 0 940 1720
 use JNWTR_RPPO4 None_RH1 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_TR_SKY130A
 transform 1 0 300 0 1 500
 box 0 0 940 1720
 use JNWTR_CAPX1 None_CM1 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_TR_SKY130A
-transform 1 0 300 0 1 7760
+transform 1 0 300 0 1 6210
 box 0 0 540 540
 use JNWATR_NCH_2C1F2 None_MN1 ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
-transform 1 0 300 0 1 9000
+transform 1 0 300 0 1 7150
 box 0 0 512 400
 use JNWATR_NCH_2CTAPTOP None_MN1_TAPTOP ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
-transform 1 0 300 0 1 9400
+transform 1 0 300 0 1 7550
 box 0 0 512 240
 use JNWATR_NCH_2CTAPBOT None_MN1_TAPBOT ~/aicex/ip/jnw_bkle_sky130A/design/JNW_ATR_SKY130A
-transform 1 0 300 0 1 8760
+transform 1 0 300 0 1 6910
 box 0 0 512 240
 << locali >>
-rect 100 9750 1440 9800
+rect 100 7900 1440 7950
 << locali >>
 rect 100 100 1440 150
 << m1 >>
-rect 100 150 150 9750
+rect 100 150 150 7900
 << m1 >>
-rect 1390 150 1440 9750
+rect 1390 150 1440 7900
 << locali >>
-rect 93 9743 157 9807
+rect 93 7893 157 7957
 << m1 >>
-rect 93 9743 157 9807
+rect 93 7893 157 7957
 << viali >>
-rect 100 9750 150 9800
+rect 100 7900 150 7950
 << locali >>
 rect 93 93 157 157
 << m1 >>
@@ -46,11 +46,11 @@ rect 93 93 157 157
 << viali >>
 rect 100 100 150 150
 << locali >>
-rect 1383 9743 1447 9807
+rect 1383 7893 1447 7957
 << m1 >>
-rect 1383 9743 1447 9807
+rect 1383 7893 1447 7957
 << viali >>
-rect 1390 9750 1440 9800
+rect 1390 7900 1440 7950
 << locali >>
 rect 1383 93 1447 157
 << m1 >>
@@ -58,19 +58,19 @@ rect 1383 93 1447 157
 << viali >>
 rect 1390 100 1440 150
 << locali >>
-rect 0 9850 1540 9900
+rect 0 8000 1540 8050
 << locali >>
 rect 0 0 1540 50
 << m1 >>
-rect 0 50 50 9850
+rect 0 50 50 8000
 << m1 >>
-rect 1490 50 1540 9850
+rect 1490 50 1540 8000
 << locali >>
-rect -7 9843 57 9907
+rect -7 7993 57 8057
 << m1 >>
-rect -7 9843 57 9907
+rect -7 7993 57 8057
 << viali >>
-rect 0 9850 50 9900
+rect 0 8000 50 8050
 << locali >>
 rect -7 -7 57 57
 << m1 >>
@@ -78,11 +78,11 @@ rect -7 -7 57 57
 << viali >>
 rect 0 0 50 50
 << locali >>
-rect 1483 9843 1547 9907
+rect 1483 7993 1547 8057
 << m1 >>
-rect 1483 9843 1547 9907
+rect 1483 7993 1547 8057
 << viali >>
-rect 1490 9850 1540 9900
+rect 1490 8000 1540 8050
 << locali >>
 rect 1483 -7 1547 57
 << m1 >>
@@ -90,45 +90,131 @@ rect 1483 -7 1547 57
 << viali >>
 rect 1490 0 1540 50
 << locali >>
-rect 252 9300 540 9340
+rect 252 7450 540 7490
 << locali >>
-rect 0 9472 1540 9568
+rect 0 7622 1540 7718
 << locali >>
-rect -7 9465 57 9575
+rect -7 7615 57 7725
 << m1 >>
-rect -7 9465 57 9575
+rect -7 7615 57 7725
 << viali >>
-rect 0 9472 50 9568
+rect 0 7622 50 7718
 << locali >>
-rect 1483 9465 1547 9575
+rect 1483 7615 1547 7725
 << m1 >>
-rect 1483 9465 1547 9575
+rect 1483 7615 1547 7725
 << viali >>
-rect 1490 9472 1540 9568
+rect 1490 7622 1540 7718
 << locali >>
-rect 0 8832 1540 8928
+rect 0 6982 1540 7078
 << locali >>
-rect -7 8825 57 8935
+rect -7 6975 57 7085
 << m1 >>
-rect -7 8825 57 8935
+rect -7 6975 57 7085
 << viali >>
-rect 0 8832 50 8928
+rect 0 6982 50 7078
 << locali >>
-rect 1483 8825 1547 8935
+rect 1483 6975 1547 7085
 << m1 >>
-rect 1483 8825 1547 8935
+rect 1483 6975 1547 7085
 << viali >>
-rect 1490 8832 1540 8928
+rect 1490 6982 1540 7078
+<< locali >>
+rect 914 5550 1232 5670
+<< locali >>
+rect 0 3934 1540 3990
+<< locali >>
+rect -7 3927 57 3997
+<< m1 >>
+rect -7 3927 57 3997
+<< viali >>
+rect 0 3934 50 3990
+<< locali >>
+rect 1483 3927 1547 3997
+<< m1 >>
+rect 1483 3927 1547 3997
+<< viali >>
+rect 1490 3934 1540 3990
+<< locali >>
+rect 0 2270 1540 2326
+<< locali >>
+rect -7 2263 57 2333
+<< m1 >>
+rect -7 2263 57 2333
+<< viali >>
+rect 0 2270 50 2326
+<< locali >>
+rect 1483 2263 1547 2333
+<< m1 >>
+rect 1483 2263 1547 2333
+<< viali >>
+rect 1490 2270 1540 2326
+<< locali >>
+rect 0 5754 1540 5810
+<< locali >>
+rect -7 5747 57 5817
+<< m1 >>
+rect -7 5747 57 5817
+<< viali >>
+rect 0 5754 50 5810
+<< locali >>
+rect 1483 5747 1547 5817
+<< m1 >>
+rect 1483 5747 1547 5817
+<< viali >>
+rect 1490 5754 1540 5810
+<< locali >>
+rect 0 4090 1540 4146
+<< locali >>
+rect -7 4083 57 4153
+<< m1 >>
+rect -7 4083 57 4153
+<< viali >>
+rect 0 4090 50 4146
+<< locali >>
+rect 1483 4083 1547 4153
+<< m1 >>
+rect 1483 4083 1547 4153
+<< viali >>
+rect 1490 4090 1540 4146
+<< locali >>
+rect 0 2164 1540 2220
+<< locali >>
+rect -7 2157 57 2227
+<< m1 >>
+rect -7 2157 57 2227
+<< viali >>
+rect 0 2164 50 2220
+<< locali >>
+rect 1483 2157 1547 2227
+<< m1 >>
+rect 1483 2157 1547 2227
+<< viali >>
+rect 1490 2164 1540 2220
+<< locali >>
+rect 0 500 1540 556
+<< locali >>
+rect -7 493 57 563
+<< m1 >>
+rect -7 493 57 563
+<< viali >>
+rect 0 500 50 556
+<< locali >>
+rect 1483 493 1547 563
+<< m1 >>
+rect 1483 493 1547 563
+<< viali >>
+rect 1490 500 1540 556
 use OTA U2_OTA 
 transform 1 0 1590 0 1 0
-box 0 0 2886 11510
+box 0 0 2886 10040
 use temp_affected_current U1_temp_affected_current 
-transform 1 0 10316 0 1 0
-box 0 0 8726 9970
+transform 1 0 4476 0 1 0
+box 0 0 2022 10060
 << labels >>
-flabel locali s 100 9750 1440 9800 0 FreeSans 400 0 0 0 VDD
-port 7 nsew signal bidirectional
-flabel locali s 0 9850 1540 9900 0 FreeSans 400 0 0 0 VSS
-port 8 nsew signal bidirectional
+flabel locali s 100 7900 1440 7950 0 FreeSans 400 0 0 0 VDD
+port 4 nsew signal bidirectional
+flabel locali s 0 8000 1540 8050 0 FreeSans 400 0 0 0 VSS
+port 5 nsew signal bidirectional
 << properties >>
 << end >>
