@@ -1,17 +1,17 @@
 magic
 tech sky130A
 magscale 1 1
-timestamp 1745941688
+timestamp 1746029693
 << checkpaint >>
 rect 0 0 1 1
 << locali >>
-rect -100 6440 5468 6490
+rect -100 6440 4488 6490
 << locali >>
-rect -100 -100 5468 -50
+rect -100 -100 4488 -50
 << m1 >>
 rect -100 -50 -50 6440
 << m1 >>
-rect 5418 -50 5468 6440
+rect 4438 -50 4488 6440
 << locali >>
 rect -107 6433 -43 6497
 << m1 >>
@@ -25,25 +25,25 @@ rect -107 -107 -43 -43
 << viali >>
 rect -100 -100 -50 -50
 << locali >>
-rect 5411 6433 5475 6497
+rect 4431 6433 4495 6497
 << m1 >>
-rect 5411 6433 5475 6497
+rect 4431 6433 4495 6497
 << viali >>
-rect 5418 6440 5468 6490
+rect 4438 6440 4488 6490
 << locali >>
-rect 5411 -107 5475 -43
+rect 4431 -107 4495 -43
 << m1 >>
-rect 5411 -107 5475 -43
+rect 4431 -107 4495 -43
 << viali >>
-rect 5418 -100 5468 -50
+rect 4438 -100 4488 -50
 << locali >>
-rect -200 6540 5568 6590
+rect -200 6540 4588 6590
 << locali >>
-rect -200 -200 5568 -150
+rect -200 -200 4588 -150
 << m1 >>
 rect -200 -150 -150 6540
 << m1 >>
-rect 5518 -150 5568 6540
+rect 4538 -150 4588 6540
 << locali >>
 rect -207 6533 -143 6597
 << m1 >>
@@ -57,24 +57,24 @@ rect -207 -207 -143 -143
 << viali >>
 rect -200 -200 -150 -150
 << locali >>
-rect 5511 6533 5575 6597
+rect 4531 6533 4595 6597
 << m1 >>
-rect 5511 6533 5575 6597
+rect 4531 6533 4595 6597
 << viali >>
-rect 5518 6540 5568 6590
+rect 4538 6540 4588 6590
 << locali >>
-rect 5511 -207 5575 -143
+rect 4531 -207 4595 -143
 << m1 >>
-rect 5511 -207 5575 -143
+rect 4531 -207 4595 -143
 << viali >>
-rect 5518 -200 5568 -150
+rect 4538 -200 4588 -150
 use OTA U1_OTA 
 transform 1 0 0 0 1 0
-box 0 0 5418 6440
+box 0 0 4438 6440
 << labels >>
-flabel locali s -100 6440 5468 6490 0 FreeSans 400 0 0 0 VDD
-port 46 nsew signal bidirectional
-flabel locali s -200 6540 5568 6590 0 FreeSans 400 0 0 0 VSS
-port 47 nsew signal bidirectional
+flabel locali s -100 6440 4488 6490 0 FreeSans 400 0 0 0 VDD
+port 51 nsew signal bidirectional
+flabel locali s -200 6540 4588 6590 0 FreeSans 400 0 0 0 VSS
+port 52 nsew signal bidirectional
 << properties >>
 << end >>
