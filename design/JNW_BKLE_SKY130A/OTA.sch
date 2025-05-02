@@ -91,3 +91,5 @@ C {devices/lab_wire.sym} -370 -30 0 0 {name=p10 sig_type=std_logic lab=AFTER_RES
 C {JNW_TR_SKY130A/JNWTR_RPPO16.sym} -370 -110 1 0 {name=xRH1}
 C {JNW_TR_SKY130A/JNWTR_RPPO16.sym} -370 -20 1 0 {name=xRH2}
 C {JNW_TR_SKY130A/JNWTR_RPPO16.sym} -370 70 1 0 {name=xRH3}
+C {AAL_MISC_SKY130A/AALMISC_PNP_W3p40L3p40.sym} 330 -140 0 0 {name=xQP1 }
+C {AAL_MISC_SKY130A/AALMISC_PNP_W3p40L3p40.sym} 560 -140 0 0 {name=xQP2 }

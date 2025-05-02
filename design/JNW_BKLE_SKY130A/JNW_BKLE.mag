@@ -1,23 +1,23 @@
 magic
 tech sky130A
 magscale 1 1
-timestamp 1746029693
+timestamp 1746183817
 << checkpaint >>
 rect 0 0 1 1
 << locali >>
-rect -100 6440 4488 6490
+rect -100 5765 5358 5815
 << locali >>
-rect -100 -100 4488 -50
+rect -100 -100 5358 -50
 << m1 >>
-rect -100 -50 -50 6440
+rect -100 -50 -50 5765
 << m1 >>
-rect 4438 -50 4488 6440
+rect 5308 -50 5358 5765
 << locali >>
-rect -107 6433 -43 6497
+rect -107 5758 -43 5822
 << m1 >>
-rect -107 6433 -43 6497
+rect -107 5758 -43 5822
 << viali >>
-rect -100 6440 -50 6490
+rect -100 5765 -50 5815
 << locali >>
 rect -107 -107 -43 -43
 << m1 >>
@@ -25,31 +25,31 @@ rect -107 -107 -43 -43
 << viali >>
 rect -100 -100 -50 -50
 << locali >>
-rect 4431 6433 4495 6497
+rect 5301 5758 5365 5822
 << m1 >>
-rect 4431 6433 4495 6497
+rect 5301 5758 5365 5822
 << viali >>
-rect 4438 6440 4488 6490
+rect 5308 5765 5358 5815
 << locali >>
-rect 4431 -107 4495 -43
+rect 5301 -107 5365 -43
 << m1 >>
-rect 4431 -107 4495 -43
+rect 5301 -107 5365 -43
 << viali >>
-rect 4438 -100 4488 -50
+rect 5308 -100 5358 -50
 << locali >>
-rect -200 6540 4588 6590
+rect -200 5865 5458 5915
 << locali >>
-rect -200 -200 4588 -150
+rect -200 -200 5458 -150
 << m1 >>
-rect -200 -150 -150 6540
+rect -200 -150 -150 5865
 << m1 >>
-rect 4538 -150 4588 6540
+rect 5408 -150 5458 5865
 << locali >>
-rect -207 6533 -143 6597
+rect -207 5858 -143 5922
 << m1 >>
-rect -207 6533 -143 6597
+rect -207 5858 -143 5922
 << viali >>
-rect -200 6540 -150 6590
+rect -200 5865 -150 5915
 << locali >>
 rect -207 -207 -143 -143
 << m1 >>
@@ -57,24 +57,24 @@ rect -207 -207 -143 -143
 << viali >>
 rect -200 -200 -150 -150
 << locali >>
-rect 4531 6533 4595 6597
+rect 5401 5858 5465 5922
 << m1 >>
-rect 4531 6533 4595 6597
+rect 5401 5858 5465 5922
 << viali >>
-rect 4538 6540 4588 6590
+rect 5408 5865 5458 5915
 << locali >>
-rect 4531 -207 4595 -143
+rect 5401 -207 5465 -143
 << m1 >>
-rect 4531 -207 4595 -143
+rect 5401 -207 5465 -143
 << viali >>
-rect 4538 -200 4588 -150
+rect 5408 -200 5458 -150
 use OTA U1_OTA 
 transform 1 0 0 0 1 0
-box 0 0 4438 6440
+box 0 0 5308 5765
 << labels >>
-flabel locali s -100 6440 4488 6490 0 FreeSans 400 0 0 0 VDD
-port 51 nsew signal bidirectional
-flabel locali s -200 6540 4588 6590 0 FreeSans 400 0 0 0 VSS
-port 52 nsew signal bidirectional
+flabel locali s -100 5765 5358 5815 0 FreeSans 400 0 0 0 VDD
+port 57 nsew signal bidirectional
+flabel locali s -200 5865 5458 5915 0 FreeSans 400 0 0 0 VSS
+port 58 nsew signal bidirectional
 << properties >>
 << end >>
