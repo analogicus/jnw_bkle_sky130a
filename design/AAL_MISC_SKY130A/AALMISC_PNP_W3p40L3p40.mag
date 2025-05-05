@@ -853,7 +853,7 @@ rect 830 396 896 430
 rect 930 396 975 430
 rect 365 365 975 396
 << labels >>
-flabel locali s 540 626 800 730 0 FreeSans 400 0 0 0 E
+flabel m1 s 540 626 800 730 0 FreeSans 400 0 0 0 E
 port 2 nsew
 flabel locali s 620 1215 720 1314 0 FreeSans 400 0 0 0 C
 port 3 nsew

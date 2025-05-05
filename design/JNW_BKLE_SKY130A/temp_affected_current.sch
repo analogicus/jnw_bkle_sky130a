@@ -1,5 +1,4 @@
-v {xschem version=3.4.6RC file_version=1.2
-}
+v {xschem version=3.4.6 file_version=1.2}
 G {}
 K {}
 V {}
@@ -113,9 +112,9 @@ C {devices/opin.sym} 1390 90 0 0 {name=p9 lab=OUT}
 C {AAL_MISC_SKY130A/AALMISC_CAP50f.sym} 0 -170 0 0 {name=xCM1}
 C {devices/lab_wire.sym} 310 360 0 1 {name=p10 sig_type=std_logic lab=VR}
 C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 780 -160 0 0 {name=xMP3}
-C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 1040 -170 0 1 {name=xMP4[9:0]}
+C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 1040 -170 0 1 {name=xMP4}
 C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 1120 -170 0 0 {name=xMP5}
-C {JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 860 400 0 1 {name=xMN1[9:0] }
+C {JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 860 400 0 1 {name=xMN1}
 C {JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 960 400 0 0 {name=xMN2}
 C {JNW_TR_SKY130A/JNWTR_RPPO8.sym} 380 340 0 0 {name=xRH2 }
 C {JNW_TR_SKY130A/JNWTR_RPPO4.sym} 460 290 2 0 {name=xRH1 }
