@@ -3,15 +3,15 @@ tech sky130A
 magscale 1 1
 timestamp 1744160456
 << m3 >>
-rect 0 262 580 842
-rect 0 142 580 162
-rect 63 25 90 150
-rect 430 25 517 150
-rect 0 25 150 150
-rect 517 25 580 150
+rect 0 252 580 842
+rect 0 142 580 120
+rect 63 25 90 120
+rect 430 25 517 120
+rect 0 25 150 120
+rect 517 25 580 120
 rect 0 0 580 32
 << via3 >>
-rect 150 32 430 142
+rect 150 32 430 120
 << mimcap >>
 rect 40 782 540 802
 rect 40 322 60 782
@@ -25,15 +25,15 @@ rect 48 322 60 782
 rect 520 322 532 782
 rect 48 162 532 322
 rect 48 12 63 162
-rect 63 25 150 162
+rect 63 25 450 162
 rect 430 32 517 162
 rect 63 142  517 162
 rect 517 25 532 162
 rect 48 12 532 32
 << labels >>
-flabel m3 s 0 262 580 842 0 FreeSans 400 0 0 0 A
+flabel m3 s 0 252 580 842 0 FreeSans 400 0 0 0 A
 port 1 nsew signal bidirectional
-flabel m3 s 0 0 580 162 0 FreeSans 400 0 0 0 B
+flabel m3 s 0 0 580 120 0 FreeSans 400 0 0 0 B
 port 2 nsew signal bidirectional
 << properties >> 
 string FIXED_BBOX 0 0 580 842

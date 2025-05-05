@@ -1,4 +1,5 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.6RC file_version=1.2
+}
 G {}
 K {}
 V {}
@@ -57,7 +58,6 @@ C {JNW_TR_SKY130A/JNWTR_RPPO4.sym} -160 -240 1 1 {name=xRH3}
 C {JNW_TR_SKY130A/JNWTR_RPPO4.sym} -160 -580 1 1 {name=xRH1 }
 C {JNW_BKLE_SKY130A/OTA.sym} 60 -380 0 0 {name=xU2}
 C {devices/lab_pin.sym} -320 -150 0 1 {name=p4 sig_type=std_logic lab=CAP}
-C {JNW_TR_SKY130A/JNWTR_CAPX1.sym} -320 -60 0 0 {name=xCM1 }
+C {AAL_MISC_SKY130A/AALMISC_CAP50f.sym} -320 -60 0 0 {name=xCM1 }
 C {devices/ipin.sym} -530 -80 0 0 {name=p3 lab=reset}
 C {JNW_ATR_SKY130A/JNWATR_NCH_2C1F2.sym} -500 -80 0 0 {name=xMN1 }
-C {JNW_BKLE_SKY130A/temp_affected_current.sym} -700 -390 0 0 {name=xU1}
