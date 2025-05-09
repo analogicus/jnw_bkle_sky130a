@@ -1,8 +1,17 @@
-
-# JNW_BKLE_SKY130A
+[![GDS](../../actions/workflows/gds.yaml/badge.svg)](../../actions/workflows/gds.yaml)
+[![DRC](../../actions/workflows/drc.yaml/badge.svg)](../../actions/workflows/drc.yaml)
+[![LVS](../../actions/workflows/lvs.yaml/badge.svg)](../../actions/workflows/lvs.yaml)
+[![DOCS](../../actions/workflows/docs.yaml/badge.svg)](../../actions/workflows/docs.yaml)
+[![SIM](../../actions/workflows/sim.yaml/badge.svg)](../../actions/workflows/sim.yaml)
+<br />
+<!--- ################################################################################################################# --->
 
 # Who
-Bjørn K.T. Solheim and Leidulv Tønnesland
+Bjørn K.T. Solheim
+Leidulv Tønnesland
+<br />
+<!--- ################################################################################################################# --->
+
 
 # Why
 This is a test repository used while developing the software project Analog Automagic layout
@@ -49,7 +58,7 @@ This is a test repository used while developing the software project Analog Auto
 | Layout                      | VIEW | ✔️    |                                |
 | Layout parasitic extraction | VIEW | N/A    |                                |
 | LPE simulation              | VER  | N/A    |                                |
-| LVS                         | VER  | :x:    |                                |
-| DRC                         | VER  | :x:    |                                |
+| LVS                         | VER  | ✔️    |                                |
+| DRC                         | VER  | ✔️    |                                |
 | ERC                         | VER  | :x:    |                                |
 | ANT                         | VER  | :x:    |                                |
