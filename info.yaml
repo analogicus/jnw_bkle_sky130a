@@ -15,8 +15,6 @@ doc:
   libraries:
     JNW_BKLE_SKY130A:
       - OTA
-    JNW_TR_SKY130A:
-      - JNWTR_RPPO16
   #       - <cell>
   #       - <cell>
 sim:
