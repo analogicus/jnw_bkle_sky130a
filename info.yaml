@@ -14,21 +14,11 @@ doc:
   # Make docs
   libraries:
     JNW_BKLE_SKY130A:
-      - JNW_BKLE
-      - temp_affected_current
       - OTA
-      - TB_OTA
-      - TB_temp_affected_current
-      - JNW_GR06
-      - COMP
-      - COMP2
-      - COMP3
-      - COMP4
-      - OTA_Manuel
   #       - <cell>
   #       - <cell>
 sim:
-  JNW_GR06: make typical
+  #JNW_GR06: make typical
   # temp_affected_current: make typical
   # OTA: make typical
   
