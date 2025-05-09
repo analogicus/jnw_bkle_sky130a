@@ -1,23 +1,23 @@
 magic
 tech sky130A
 magscale 1 1
-timestamp 1746712773
+timestamp 1746784340
 << checkpaint >>
 rect 0 0 1 1
 << locali >>
-rect -100 9474 2736 9524
+rect -100 9464 2736 9514
 << locali >>
 rect -100 -100 2736 -50
 << m1 >>
-rect -100 -50 -50 9474
+rect -100 -50 -50 9464
 << m1 >>
-rect 2686 -50 2736 9474
+rect 2686 -50 2736 9464
 << locali >>
-rect -107 9467 -43 9531
+rect -107 9457 -43 9521
 << m1 >>
-rect -107 9467 -43 9531
+rect -107 9457 -43 9521
 << viali >>
-rect -100 9474 -50 9524
+rect -100 9464 -50 9514
 << locali >>
 rect -107 -107 -43 -43
 << m1 >>
@@ -25,11 +25,11 @@ rect -107 -107 -43 -43
 << viali >>
 rect -100 -100 -50 -50
 << locali >>
-rect 2679 9467 2743 9531
+rect 2679 9457 2743 9521
 << m1 >>
-rect 2679 9467 2743 9531
+rect 2679 9457 2743 9521
 << viali >>
-rect 2686 9474 2736 9524
+rect 2686 9464 2736 9514
 << locali >>
 rect 2679 -107 2743 -43
 << m1 >>
@@ -37,19 +37,19 @@ rect 2679 -107 2743 -43
 << viali >>
 rect 2686 -100 2736 -50
 << locali >>
-rect -200 9574 2836 9624
+rect -200 9564 2836 9614
 << locali >>
 rect -200 -200 2836 -150
 << m1 >>
-rect -200 -150 -150 9574
+rect -200 -150 -150 9564
 << m1 >>
-rect 2786 -150 2836 9574
+rect 2786 -150 2836 9564
 << locali >>
-rect -207 9567 -143 9631
+rect -207 9557 -143 9621
 << m1 >>
-rect -207 9567 -143 9631
+rect -207 9557 -143 9621
 << viali >>
-rect -200 9574 -150 9624
+rect -200 9564 -150 9614
 << locali >>
 rect -207 -207 -143 -143
 << m1 >>
@@ -57,11 +57,11 @@ rect -207 -207 -143 -143
 << viali >>
 rect -200 -200 -150 -150
 << locali >>
-rect 2779 9567 2843 9631
+rect 2779 9557 2843 9621
 << m1 >>
-rect 2779 9567 2843 9631
+rect 2779 9557 2843 9621
 << viali >>
-rect 2786 9574 2836 9624
+rect 2786 9564 2836 9614
 << locali >>
 rect 2779 -207 2843 -143
 << m1 >>
@@ -70,11 +70,11 @@ rect 2779 -207 2843 -143
 rect 2786 -200 2836 -150
 use OTA U1_OTA 
 transform 1 0 0 0 1 0
-box 0 0 2686 9474
+box 0 0 2686 9464
 << labels >>
-flabel locali s -200 9574 2836 9624 0 FreeSans 400 0 0 0 VDD
+flabel locali s -200 9564 2836 9614 0 FreeSans 400 0 0 0 VDD
 port 51 nsew signal bidirectional
-flabel locali s -100 9474 2736 9524 0 FreeSans 400 0 0 0 VSS
+flabel locali s -100 9464 2736 9514 0 FreeSans 400 0 0 0 VSS
 port 52 nsew signal bidirectional
 << properties >>
 << end >>
