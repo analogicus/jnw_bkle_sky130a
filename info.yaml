@@ -19,8 +19,6 @@ doc:
   #       - <cell>
 sim:
   OTA: make typical
-include:
-  - tech
   # temp_affected_current: make typical
   # OTA: make typical
   
