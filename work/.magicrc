@@ -1,5 +1,5 @@
-source $ROOT/tech/magic/.magicrc
-addpath $ROOT/design/JNW_BKLE_SKY130A
-addpath $ROOT/design/JNW_TR_SKY130A
-addpath $ROOT/design/JNW_ATR_SKY130A
-addpath $ROOT/design/AAL_MISC_SKY130A
+source tech/magic/.magicrc
+addpath design/JNW_BKLE_SKY130A
+addpath design/JNW_TR_SKY130A
+addpath design/JNW_ATR_SKY130A
+addpath design/AAL_MISC_SKY130A
