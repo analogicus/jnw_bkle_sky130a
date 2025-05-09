@@ -16,7 +16,7 @@ LIB=JNW_BKLE_SKY130A
 CELL=JNW_BKLE
 
 #- Which libraries to make SVG files for
-SVGLIBS=JNW_BKLE_SKY130A
+# SVGLIBS=JNW_BKLE_SKY130A
 
 #- Provide cells you want to check for the lvsall drcall commands
 CELLS = OTA
