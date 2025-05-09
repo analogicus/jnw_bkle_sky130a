@@ -22,9 +22,4 @@ sim:
   # temp_affected_current: make typical
   # OTA: make typical
 
-- name: Debug file path
-  run: | 
-    ls -la
-    realpath design/JNW_BKLE_SKY130A/../JNW_ATR_SKY130A/JNWATR_PCH_4CTAPBOT.mag
-
   
