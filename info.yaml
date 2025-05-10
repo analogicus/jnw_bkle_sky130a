@@ -13,7 +13,9 @@ url: analogicus.github.io
 doc:
   # Make docs
   libraries:
-    JNW_BKLE_SKY130A:
+  
+  JNW_BKLE_SKY130A:
+      - JNW_BKLE
       - OTA
   #       - <cell>
   #       - <cell>
