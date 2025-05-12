@@ -3,13 +3,13 @@ cell: JNW_BKLE
 # Your name
 author: Bjørn and Leidulv
 # Your github username
-github: analogicus
+github: Sunhome22
 # Something funny and descriptive
 tagline: Analog Automagic Layout
 # Your email, if you so wish
 email: anon@anon.com
 # Your github site, usually <github username>.github.io
-url: analogicus.github.io
+url: Sunhome22.github.io
 doc:
   # Make docs
   libraries:
