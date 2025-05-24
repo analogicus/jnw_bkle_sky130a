@@ -7,7 +7,7 @@
 <!--- ################################################################################################################# --->
 
 # Who
-Bjørn K.T. Solheim
+Bjørn K.T. Solheim and
 Leidulv Tønnesland
 <br />
 <!--- ################################################################################################################# --->
@@ -16,6 +16,7 @@ Leidulv Tønnesland
 # Why
 This is a test repository used while developing the software project Analog Automagic layout
 (https://github.com/Sunhome22/Analog-Automagic-Layout).
+
 
 
 | What            | Lib/Folder       | Cell/Name |
@@ -30,7 +31,7 @@ This is a test repository used while developing the software project Analog Auto
 |1.0.0 | ✔️ | An OTA comparator circuit |
 
 
-# Signal interface of comparator OTA
+# Signal interface of current mirror OTA
 | Signal       | Direction | Domain   | Description                               |
 | :---         | :---:     | :---:    | :---                                      |
 | VDD          | Input     | VDD      | Main supply                               |
@@ -41,14 +42,7 @@ This is a test repository used while developing the software project Analog Auto
 | VO           | Output    | VO       | Comparator output                         |
 
 
-# Key parameters
-| Parameter           | Min     | Typ           | Max     | Unit  |
-| :---                | :-:     | :-:           | :-:     | :---: |
-| Technology          |         | Skywater 130 nm |         |       |
-| AVDD                | 1.7    | 1.8           | 1.9    | V     |
-
-
-# Status
+# Status of current mirror OTA
 
 | Stage                       | TYPE | Status | Comment                        |
 | :---                        | :-:  | :---:  | :--:                           |
