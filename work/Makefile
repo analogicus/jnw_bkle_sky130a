@@ -19,6 +19,6 @@ CELL=JNW_BKLE
 # SVGLIBS=JNW_BKLE_SKY130A
 
 #- Provide cells you want to check for the lvsall drcall commands
-CELLS = COMP2
+CELLS = OTA
 
 include ../tech/make/core.make
