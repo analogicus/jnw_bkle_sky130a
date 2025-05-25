@@ -1,5 +1,4 @@
-v {xschem version=3.4.6RC file_version=1.2
-}
+v {xschem version=3.4.6 file_version=1.2}
 G {}
 K {}
 V {}
@@ -160,3 +159,4 @@ C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 530 -660 0 1 {name=xload1_MP3
 C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 650 -660 0 0 {name=xload1_MP4}
 C {devices/opin.sym} 1000 -410 0 0 {name=p4 lab=VO}
 C {devices/ipin.sym} 240 -350 0 0 {name=p2 lab=I_BIAS}
+C {JNW_BKLE_SKY130A/COMP2.sym} 1130 -510 0 0 {name=xU3}

@@ -176,5 +176,4 @@ C {JNW_ATR_SKY130A/JNWATR_PCH_12C5F0.sym} 650 -660 0 0 {name=xload1_MP4}
 C {devices/opin.sym} 1000 -410 0 0 {name=p4 lab=VO}
 C {devices/ipin.sym} 240 -350 0 0 {name=p2 lab=I_BIAS}
 C {JNW_BKLE_SKY130A/COMP2.sym} -120 -510 0 0 {name=xU1}
-C {JNW_BKLE_SKY130A/COMP2.sym} 1040 -510 0 0 {name=xU2}
-C {JNW_BKLE_SKY130A/COMP3.sym} 1340 -480 0 0 {name=xU3}
+C {JNW_BKLE_SKY130A/COMP3.sym} 1040 -510 0 0 {name=xU2}
