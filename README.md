@@ -1,7 +1,10 @@
 <!--- ################################################################################################################# --->
+Contact information
+| Name                        | E-mail                |
+| :-                          | :-:                   |
+| Bjørn K.T. Solheim           | bjorn_solheim@hotmail.no  |
+| Leidulv Tønnesland           | leidulv.tonnesland@gmail.com |
 
-Bjørn K.T. Solheim and
-Leidulv Tønnesland
 <br />
 <!--- ################################################################################################################# --->
 
