@@ -55,7 +55,7 @@ C {devices/opin.sym} 350 -380 0 0 {name=p6 lab=OUT}
 C {JNW_TR_SKY130A/JNWTR_RPPO4.sym} -160 -480 1 1 {name=xRH2}
 C {JNW_TR_SKY130A/JNWTR_RPPO4.sym} -160 -240 1 1 {name=xRH3}
 C {JNW_TR_SKY130A/JNWTR_RPPO4.sym} -160 -580 1 1 {name=xRH1 }
-C {JNW_BKLE_SKY130A/OTA.sym} 60 -380 0 0 {name=xU2}
+C {JNW_BKLE_SKY130A/single_stage_OTA.sym} 60 -380 0 0 {name=xU2}
 C {devices/lab_pin.sym} -320 -150 0 1 {name=p4 sig_type=std_logic lab=CAP}
 C {AAL_MISC_SKY130A/AALMISC_CAP50f.sym} -320 -60 0 0 {name=xCM1 }
 C {devices/ipin.sym} -530 -80 0 0 {name=p3 lab=reset}

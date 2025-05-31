@@ -8,7 +8,6 @@ T {Used to have stuff to do loop gain here. the lvs check does not like it. so i
 N -290 -130 -290 200 {lab=LEFT_SIDE}
 N -20 240 -20 280 {lab=LEFT_SIDE}
 N -290 200 -290 370 {lab=LEFT_SIDE}
-N -290 280 -30 280 {lab=LEFT_SIDE}
 N 30 240 30 280 {lab=RIGHT_SIDE}
 N -460 510 450 510 {lab=VSS}
 N -290 430 -290 510 {lab=VSS}
@@ -36,9 +35,6 @@ N -170 110 -110 110 {lab=VSS}
 N -640 -260 -370 -260 {lab=VDD}
 N 0 -70 0 -40 {lab=GATE}
 N -690 510 -460 510 {lab=VSS}
-N 0 -260 0 -230 {lab=VDD}
-N -30 280 -20 280 {lab=LEFT_SIDE}
-N 30 280 310 280 {lab=RIGHT_SIDE}
 N 450 510 820 510 {lab=VSS}
 N 820 -190 870 -190 {lab=VDD}
 N 870 -190 870 -160 {lab=VDD}
@@ -77,16 +73,8 @@ N 1000 460 1050 460 {lab=VSS}
 N 1000 430 1000 510 {lab=VSS}
 N 820 510 1000 510 {lab=VSS}
 N 310 290 350 290 {lab=RIGHT_SIDE}
-N 310 340 380 340 {lab=VR}
 N 310 340 310 350 {lab=VR}
 N 350 290 380 290 {lab=RIGHT_SIDE}
-N 460 290 490 290 {lab=#net3}
-N 490 290 490 340 {lab=#net3}
-N 460 340 490 340 {lab=#net3}
-N 420 270 520 270 {lab=VSS}
-N 520 270 520 360 {lab=VSS}
-N 420 360 520 360 {lab=VSS}
-N 520 360 520 510 {lab=VSS}
 N 0 -90 -0 -70 {lab=GATE}
 N -0 -90 30 -90 {lab=GATE}
 N -0 -130 30 -130 {lab=GATE}
@@ -95,10 +83,28 @@ N 30 -130 30 -90 {lab=GATE}
 N 310 430 310 510 {lab=VSS}
 N 350 400 350 460 {lab=VSS}
 N 310 460 350 460 {lab=VSS}
+N 1200 430 1200 460 {lab=VSS}
+N 1200 460 1200 510 {lab=VSS}
+N 1000 510 1200 510 {lab=VSS}
+N 480 270 520 270 {lab=VSS}
+N 480 270 480 510 {lab=VSS}
+N 380 290 520 290 {lab=RIGHT_SIDE}
+N 310 310 310 340 {lab=VR}
+N 30 290 310 290 {lab=RIGHT_SIDE}
+N 30 280 30 290 {lab=RIGHT_SIDE}
+N -20 280 -20 290 {lab=LEFT_SIDE}
+N -290 290 -20 290 {lab=LEFT_SIDE}
+N 240 -160 240 60 {lab=GATE}
+N 240 60 240 240 {lab=GATE}
+N 240 250 520 250 {lab=GATE}
+N 240 240 240 250 {lab=GATE}
+N 310 310 520 310 {lab=VR}
+N 480 230 520 230 {lab=VDD}
+N 480 -260 480 230 {lab=VDD}
 C {devices/ipin.sym} -640 -260 0 0 {name=p1 lab=VDD}
-C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 270 -160 0 0 {name=xMP2}
-C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} -250 -160 0 1 {name=xMP1}
-C {JNW_BKLE_SKY130A/OTA.sym} 0 160 1 1 {name=xU1}
+C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 270 -160 0 0 {name=xmr1_MP2}
+C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} -250 -160 0 1 {name=xmirror1_MP1}
+C {JNW_BKLE_SKY130A/single_stage_OTA.sym} 0 160 1 1 {name=xU1}
 C {devices/ipin.sym} -690 510 0 0 {name=p2 lab=VSS}
 C {devices/lab_wire.sym} -170 110 0 0 {name=p3 sig_type=std_logic lab=VSS}
 C {devices/lab_wire.sym} 210 110 0 1 {name=p4 sig_type=std_logic lab=VDD}
@@ -109,14 +115,13 @@ C {devices/lab_wire.sym} -290 0 0 1 {name=p7 sig_type=std_logic lab=LEFT_SIDE
 }
 C {devices/lab_wire.sym} 720 -160 0 0 {name=p8 sig_type=std_logic lab=GATE}
 C {devices/opin.sym} 1390 90 0 0 {name=p9 lab=OUT}
-C {AAL_MISC_SKY130A/AALMISC_CAP50f.sym} 0 -170 0 0 {name=xCM1}
 C {devices/lab_wire.sym} 310 360 0 1 {name=p10 sig_type=std_logic lab=VR}
-C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 780 -160 0 0 {name=xMP3}
-C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 1040 -170 0 1 {name=xMP4}
-C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 1120 -170 0 0 {name=xMP5}
-C {JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 860 400 0 1 {name=xMN1}
+C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 780 -160 0 0 {name=xmr1_MP3}
+C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 1040 -170 0 1 {name=xmr3_MP4[9:0]}
+C {JNW_ATR_SKY130A/JNWATR_PCH_4C5F0.sym} 1120 -170 0 0 {name=xmr3_MP5}
+C {JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 860 400 0 1 {name=xmr2_MN1[9:0]}
 C {JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 960 400 0 0 {name=xMN2}
-C {JNW_TR_SKY130A/JNWTR_RPPO8.sym} 380 340 0 0 {name=xRH2 }
-C {JNW_TR_SKY130A/JNWTR_RPPO4.sym} 460 290 2 0 {name=xRH1 }
-C {AAL_MISC_SKY130A/AALMISC_PNP_W3p40L3p40.sym} -360 450 0 0 {name=xload1_QP1 }
-C {AAL_MISC_SKY130A/AALMISC_PNP_W3p40L3p40.sym} 380 450 0 1 {name=xload1_QP2[0:7]}
+C {AAL_MISC_SKY130A/AALMISC_PNP_W3p40L3p40.sym} -360 450 0 0 {name=xdiode_QP1 }
+C {AAL_MISC_SKY130A/AALMISC_PNP_W3p40L3p40.sym} 380 450 0 1 {name=xde1_QP2[0:7]}
+C {JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} 1160 430 0 0 {name=xMN99}
+C {JNW_BKLE_SKY130A/RC_EXT.sym} 670 270 0 0 {name=xU2}

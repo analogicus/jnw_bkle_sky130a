@@ -1,87 +1,87 @@
 magic
 tech sky130A
 magscale 1 1
-timestamp 1748204603
+timestamp 1748617741
 << checkpaint >>
 rect 0 0 1 1
 use JNWATR_NCH_4C5F0  diff1_MN1 ../JNW_ATR_SKY130A
-timestamp 1748204603
+timestamp 1748617741
 transform 1 0 868 0 1 904
 box 0 0 576 400
 use JNWATR_NCH_4C5F0  diff1_MN2 ../JNW_ATR_SKY130A
-timestamp 1748204603
+timestamp 1748617741
 transform 1 0 292 0 1 904
 box 0 0 576 400
 use JNWATR_PCH_4C5F0  load1_MP5 ../JNW_ATR_SKY130A
-timestamp 1748204603
+timestamp 1748617741
 transform 1 0 292 0 1 3204
 box 0 0 576 400
 use JNWATR_PCH_4CTAPTOP  load1_MP5_TAPTOP ../JNW_ATR_SKY130A
-timestamp 1748204603
+timestamp 1748617741
 transform 1 0 292 0 1 3604
 box 0 0 576 240
 use JNWATR_PCH_4C5F0  load1_MP6 ../JNW_ATR_SKY130A
-timestamp 1748204603
+timestamp 1748617741
 transform 1 0 868 0 1 3204
 box 0 0 576 400
 use JNWATR_PCH_4CTAPTOP  load1_MP6_TAPTOP ../JNW_ATR_SKY130A
-timestamp 1748204603
+timestamp 1748617741
 transform 1 0 868 0 1 3604
 box 0 0 576 240
 use JNWATR_PCH_4C5F0  load1_MP1 ../JNW_ATR_SKY130A
-timestamp 1748204603
+timestamp 1748617741
 transform 1 0 292 0 1 2404
 box 0 0 576 400
 use JNWATR_PCH_4CTAPBOT  load1_MP1_TAPBOT ../JNW_ATR_SKY130A
-timestamp 1748204603
+timestamp 1748617741
 transform 1 0 292 0 1 2164
 box 0 0 576 240
 use JNWATR_PCH_4C5F0  load1_MP2 ../JNW_ATR_SKY130A
-timestamp 1748204603
+timestamp 1748617741
 transform 1 0 868 0 1 2404
 box 0 0 576 400
 use JNWATR_PCH_4CTAPBOT  load1_MP2_TAPBOT ../JNW_ATR_SKY130A
-timestamp 1748204603
+timestamp 1748617741
 transform 1 0 868 0 1 2164
 box 0 0 576 240
 use JNWATR_NCH_4C5F0  mirror2_MN4 ../JNW_ATR_SKY130A
-timestamp 1748204603
+timestamp 1748617741
 transform 1 0 292 0 1 504
 box 0 0 576 400
 use JNWATR_NCH_4CTAPBOT  mirror2_MN4_TAPBOT ../JNW_ATR_SKY130A
-timestamp 1748204603
+timestamp 1748617741
 transform 1 0 292 0 1 264
 box 0 0 576 240
 use JNWATR_NCH_4C5F0  mirror2_MN3 ../JNW_ATR_SKY130A
-timestamp 1748204603
+timestamp 1748617741
 transform 1 0 868 0 1 504
 box 0 0 576 400
 use JNWATR_NCH_4CTAPBOT  mirror2_MN3_TAPBOT ../JNW_ATR_SKY130A
-timestamp 1748204603
+timestamp 1748617741
 transform 1 0 868 0 1 264
 box 0 0 576 240
 use JNWATR_NCH_4C5F0  mirror1_MN5 ../JNW_ATR_SKY130A
-timestamp 1748204603
+timestamp 1748617741
 transform 1 0 868 0 1 1304
 box 0 0 576 400
 use JNWATR_NCH_4CTAPTOP  mirror1_MN5_TAPTOP ../JNW_ATR_SKY130A
-timestamp 1748204603
+timestamp 1748617741
 transform 1 0 868 0 1 1704
 box 0 0 576 240
 use JNWATR_NCH_4C5F0  mirror1_MN6 ../JNW_ATR_SKY130A
-timestamp 1748204603
+timestamp 1748617741
 transform 1 0 292 0 1 1304
 box 0 0 576 400
 use JNWATR_NCH_4CTAPTOP  mirror1_MN6_TAPTOP ../JNW_ATR_SKY130A
-timestamp 1748204603
+timestamp 1748617741
 transform 1 0 292 0 1 1704
 box 0 0 576 240
 use JNWATR_PCH_4C5F0  load1_MP3 ../JNW_ATR_SKY130A
-timestamp 1748204603
+timestamp 1748617741
 transform 1 0 868 0 1 2804
 box 0 0 576 400
 use JNWATR_PCH_4C5F0  load1_MP4 ../JNW_ATR_SKY130A
-timestamp 1748204603
+timestamp 1748617741
 transform 1 0 292 0 1 2804
 box 0 0 576 400
 << m2 >>
@@ -590,16 +590,16 @@ rect 365 1477 411 1531
 rect 372 1484 404 1524
 << labels >>
 flabel locali s 100 3958 1636 4008 0 FreeSans 400 0 0 0 VSS
-port 61 nsew signal bidirectional
+port 4 nsew signal bidirectional
 flabel locali s 0 4058 1736 4108 0 FreeSans 400 0 0 0 VDD
-port 62 nsew signal bidirectional
+port 5 nsew signal bidirectional
 flabel m1 s 948 1084 980 1124 0 FreeSans 400 0 0 0 VIP
-port 63 nsew signal bidirectional
+port 6 nsew signal bidirectional
 flabel m1 s 372 1084 404 1124 0 FreeSans 400 0 0 0 VIN
-port 64 nsew signal bidirectional
+port 7 nsew signal bidirectional
 flabel m2 s 803 3225 1250 3255 0 FreeSans 400 0 0 0 VO
-port 65 nsew signal bidirectional
+port 8 nsew signal bidirectional
 flabel m2 s 386 683 962 713 0 FreeSans 400 0 0 0 I_BIAS
-port 66 nsew signal bidirectional
+port 9 nsew signal bidirectional
 << properties >>
 << end >>
