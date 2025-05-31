@@ -1612,10 +1612,10 @@ rect 1253 10090 1357 10156
 rect 1253 10090 1357 10156
 << via1 >>
 rect 1260 10097 1350 10149
-use OTA U1_OTA 
+use single_stage_OTA U1_single_stage_OTA 
 transform 1 0 1890 0 1 0
 box 0 0 2686 9614
-use JNW_BKLE_GR06_res U2_JNW_BKLE_GR06_res 
+use RC_EXT U2_RC_EXT 
 transform 1 0 4576 0 1 0
 box 0 0 1390 6952
 << labels >>

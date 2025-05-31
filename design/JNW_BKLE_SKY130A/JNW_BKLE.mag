@@ -1,23 +1,23 @@
 magic
 tech sky130A
 magscale 1 1
-timestamp 1748719950
+timestamp 1748249007
 << checkpaint >>
 rect 0 0 1 1
 << locali >>
-rect -100 5710 4180 5760
+rect -100 10704 10092 10754
 << locali >>
-rect -100 -100 4180 -50
+rect -100 -100 10092 -50
 << m1 >>
-rect -100 -50 -50 5710
+rect -100 -50 -50 10704
 << m1 >>
-rect 4130 -50 4180 5710
+rect 10042 -50 10092 10704
 << locali >>
-rect -107 5703 -43 5767
+rect -107 10697 -43 10761
 << m1 >>
-rect -107 5703 -43 5767
+rect -107 10697 -43 10761
 << viali >>
-rect -100 5710 -50 5760
+rect -100 10704 -50 10754
 << locali >>
 rect -107 -107 -43 -43
 << m1 >>
@@ -25,31 +25,31 @@ rect -107 -107 -43 -43
 << viali >>
 rect -100 -100 -50 -50
 << locali >>
-rect 4123 5703 4187 5767
+rect 10035 10697 10099 10761
 << m1 >>
-rect 4123 5703 4187 5767
+rect 10035 10697 10099 10761
 << viali >>
-rect 4130 5710 4180 5760
+rect 10042 10704 10092 10754
 << locali >>
-rect 4123 -107 4187 -43
+rect 10035 -107 10099 -43
 << m1 >>
-rect 4123 -107 4187 -43
+rect 10035 -107 10099 -43
 << viali >>
-rect 4130 -100 4180 -50
+rect 10042 -100 10092 -50
 << locali >>
-rect -200 5810 4280 5860
+rect -200 10804 10192 10854
 << locali >>
-rect -200 -200 4280 -150
+rect -200 -200 10192 -150
 << m1 >>
-rect -200 -150 -150 5810
+rect -200 -150 -150 10804
 << m1 >>
-rect 4230 -150 4280 5810
+rect 10142 -150 10192 10804
 << locali >>
-rect -207 5803 -143 5867
+rect -207 10797 -143 10861
 << m1 >>
-rect -207 5803 -143 5867
+rect -207 10797 -143 10861
 << viali >>
-rect -200 5810 -150 5860
+rect -200 10804 -150 10854
 << locali >>
 rect -207 -207 -143 -143
 << m1 >>
@@ -57,24 +57,24 @@ rect -207 -207 -143 -143
 << viali >>
 rect -200 -200 -150 -150
 << locali >>
-rect 4223 5803 4287 5867
+rect 10135 10797 10199 10861
 << m1 >>
-rect 4223 5803 4287 5867
+rect 10135 10797 10199 10861
 << viali >>
-rect 4230 5810 4280 5860
+rect 10142 10804 10192 10854
 << locali >>
-rect 4223 -207 4287 -143
+rect 10135 -207 10199 -143
 << m1 >>
-rect 4223 -207 4287 -143
+rect 10135 -207 10199 -143
 << viali >>
-rect 4230 -200 4280 -150
-use single_stage_OTA U1_single_stage_OTA 
+rect 10142 -200 10192 -150
+use JNW_GR06 U1_JNW_GR06 
 transform 1 0 0 0 1 0
-box 0 0 4130 5710
+box 0 0 1390 7856
 << labels >>
-flabel locali s -200 5810 4280 5860 0 FreeSans 400 0 0 0 VDD
-port 51 nsew signal bidirectional
-flabel locali s -100 5710 4180 5760 0 FreeSans 400 0 0 0 VSS
-port 52 nsew signal bidirectional
+flabel locali s -200 10804 10192 10854 0 FreeSans 400 0 0 0 VDD
+port 268 nsew signal bidirectional
+flabel locali s -100 10704 10092 10754 0 FreeSans 400 0 0 0 VSS
+port 269 nsew signal bidirectional
 << properties >>
 << end >>

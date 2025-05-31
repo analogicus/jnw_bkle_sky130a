@@ -348,7 +348,7 @@ rect 557 517 667 571
 rect 557 517 667 571
 << via1 >>
 rect 564 524 660 564
-use OTA U2_OTA 
+use single_stage_OTA U2_single_stage_OTA 
 transform 1 0 1390 0 1 0
 box 0 0 2686 9614
 use temp_affected_current U1_temp_affected_current 
